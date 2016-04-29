@@ -1,0 +1,21 @@
+---
+title: "Interactive Exploration of Dynamic Statistical Comparison Results"
+author: "Nan Xiao <<nanx@uchicago.edu>>"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    number_sections: true
+    css: shinydsc.css
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Interactive Exploration of Dynamic Statistical Comparison Results}
+---
+
+# Introduction
+
+The `shinydsc` package offers...
+
+<hr>
+
+Project website: [https://github.com/stephenslab/shinydsc](https://github.com/stephenslab/shinydsc)
