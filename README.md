@@ -1,6 +1,6 @@
 # shinydsc
 
-[![Build Status](https://travis-ci.org/road2stat/shinydsc.svg?branch=master)](https://travis-ci.org/road2stat/shinydsc)
+[![Build Status](https://travis-ci.org/stephenslab/shinydsc.svg?branch=master)](https://travis-ci.org/stephenslab/shinydsc)
 [![CRAN Version](http://www.r-pkg.org/badges/version/shinydsc)](https://cran.r-project.org/package=shinydsc)
 [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/shinydsc)](http://cranlogs.r-pkg.org/badges/shinydsc)
 
