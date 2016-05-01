@@ -1,12 +1,16 @@
 library('shiny')
+library('shinydsc')
+library('shinyAce')
+library('DT')
 
 shinyUI(
   navbarPage(
-    title = 'shinydsc',
-    id = 'mainnavbar',
-    theme = 'uchicago.css',
+    title   = 'shinydsc',
+    id      = 'mainnavbar',
+    theme   = 'uchicago.css',
     inverse = FALSE,
     windowTitle = 'shinydsc - Explore Dynamic Statistical Comparison',
+    ## TODO: add Google Analytics
     # header = tags$head(includeScript('google-analytics.js')),
 
     tabPanel(title = 'Home',
@@ -33,11 +37,89 @@ shinyUI(
 
     ),
 
-    tabPanel(title = 'Upload'
+    tabPanel(title = 'Upload',
+
+             fluidRow(
+
+               column(width = 10, offset = 1,
+                      sidebarPanel(width = 12,
+                                   radioButtons('data_type', label = 'Use example data or upload your data:',
+                                                choices = list('Load example DSC output' = 'example',
+                                                               'Upload your own DSC output' = 'upload'),
+                                                selected = 'example'),
+                                   conditionalPanel(
+                                     condition = "input.data_type == 'example'",
+                                     p('Download the example data from', a('this link', href = 'https://github.com/.../upload.md', target = '_blank'), '.'),
+                                     selectizeInput('dsc_example', 'Choose example DSC output:',
+                                                    choices = list('One Sample Location' = 'one_sample_location',
+                                                                   'Second Sample'       = 'second_sample',
+                                                                   'Yet Another Example' = 'yet_another_example'))
+                                   ),
+                                   conditionalPanel(
+                                     condition = "input.data_type == 'upload'",
+                                     p('Read a detailed explanation about the ', a('upload data format', href = 'https://github.com/.../upload.md', target = '_blank'), '.'),
+                                     fileInput('dsc_output_upload', label = 'Upload .rds file:')
+                                   )
+                      )
+
+               ),
+
+               column(width = 10, offset = 1,
+                      mainPanel(width = 12,
+                                tabsetPanel(
+                                  tabPanel('DSC Configuration Overview',
+                                           aceEditor('ace_upload',
+                                                     value = 'Please upload your DSC output or select an example output',
+                                                     mode = 'yaml', theme = 'tomorrow', fontSize = 14, readOnly = TRUE))
+                                )
+                      )
+               )
+
+             )
 
     ),
 
-    tabPanel(title = 'Filter'
+    tabPanel(title = 'Filter',
+
+             fluidRow(
+
+               column(width = 5, offset = 1,
+
+                      tabsetPanel(
+                        tabPanel('DSC Configuration Overview',
+                                 aceEditor('ace_filter',
+                                           value = 'Please upload your DSC output or select an example output',
+                                           mode = 'yaml', theme = 'tomorrow', fontSize = 14, readOnly = TRUE))
+                      )
+
+               ),
+
+               column(width = 5,
+                      sidebarPanel(width = 12,
+                                   h4('Please select executables from blocks:'),
+                                   uiOutput('dsc_blocks_ui')
+                      ),
+
+                      sidebarPanel(width = 12,
+                                   h4('Please select parameters from executables:'),
+                                   uiOutput('dsc_params_ui')
+                      )
+               )
+
+             ),
+
+             fluidRow(
+
+               column(width = 10, offset = 1,
+
+                      tabsetPanel(
+                        tabPanel('Filtered Table',
+                                 dataTableOutput('filtered_master_table'))
+                      )
+
+               )
+
+             )
 
     ),
 
