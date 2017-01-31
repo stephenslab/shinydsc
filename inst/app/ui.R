@@ -1,6 +1,7 @@
 library('shiny')
 library('shinydsc')
 library('shinyAce')
+library('dplyr')
 library('DT')
 
 shinyUI(
@@ -37,7 +38,7 @@ shinyUI(
 
     ),
 
-    tabPanel(title = 'Upload',
+    tabPanel(title = 'Setting Up',
 
              fluidRow(
 
@@ -51,13 +52,13 @@ shinyUI(
                                      condition = "input.data_type == 'example'",
                                      p('Download the example data from', a('this link', href = 'https://github.com/.../upload.md', target = '_blank'), '.'),
                                      selectizeInput('dsc_example', 'Choose example DSC output:',
-                                                    choices = list('One Sample Location' = 'one_sample_location',
+                                                    choices = list('one_sample' = 'one_sample_location',
                                                                    'Second Sample'       = 'second_sample',
                                                                    'Yet Another Example' = 'yet_another_example'))
                                    ),
                                    conditionalPanel(
                                      condition = "input.data_type == 'upload'",
-                                     p('Read a detailed explanation about the ', a('upload data format', href = 'https://github.com/.../upload.md', target = '_blank'), '.'),
+                                     p('Read a detailed explanation about the ', a('upload data format', href = 'https://stephenslab.github.io/dsc2-omega/dsc-script.html', target = '_blank'), '.'),
                                      fileInput('dsc_output_upload', label = 'Upload .rds file:')
                                    )
                       )
@@ -79,7 +80,7 @@ shinyUI(
 
     ),
 
-    tabPanel(title = 'Filter',
+    tabPanel(title = 'Customize',
 
              fluidRow(
 
@@ -97,7 +98,8 @@ shinyUI(
                column(width = 5,
                       sidebarPanel(width = 12,
                                    h4('Please select executables from blocks:'),
-                                   uiOutput('dsc_blocks_ui')
+                                   uiOutput('dsc_blocks_ui'),
+                                   verbatimTextOutput("input_type_text")
                       ),
 
                       sidebarPanel(width = 12,
@@ -117,6 +119,23 @@ shinyUI(
                                  dataTableOutput('filtered_master_table'))
                       )
 
+               )
+
+             )
+
+    ),
+
+    tabPanel(title = 'Preview',
+             textOutput("text1"),
+             fluidRow(
+
+               column(width = 5,
+
+                      sidebarPanel(width = 12,
+                                   h4('Please type the project name:'),
+                                   textInput("project_name", label = h3("Project Name"),
+                                             value = "Enter text...")
+                      )
                )
 
              )

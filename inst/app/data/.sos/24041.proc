@@ -1,0 +1,29 @@
+# DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_14.rds")
+# input <- DSC_220D5D6DAE$data
+# 
+# mixcompdist <- 'halfuniform'
+# library(ashr)
+# ash.wrapper=function(input,args=NULL){
+#   if(is.null(args)){
+#     args=list(mixcompdist="halfuniform",method="fdr")
+#   }
+#   res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+#   return(res)
+# }
+# ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+# beta_est <- ash_data$PosteriorMean
+# pi0_est <- ashr::get_pi0(ash_data)
+# saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_14_runash.R_16.rds')
+# 
+# 
+# step_sig: 3d8740d34c0297c080ca85ac4fb16bf8
+#started at Monday, 30. January 2017 02:59PM
+#
+#time	proc_cpu	proc_mem	children	children_cpu	children_mem
+1485809978.375167	0.00	1990656	0	0	0
+1485809979.387594	0.00	49434624	0	0	0
+1485809980.397505	0.00	57155584	0	0	0
+1485809981.407213	0.00	83660800	0	0	0
+1485809982.41955	0.00	99217408	0	0	0
+1485809983.429704	0.00	120659968	0	0	0
+1485809984.4442601	0.00	120741888	0	0	0

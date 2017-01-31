@@ -1,0 +1,30 @@
+# DSC_LMERGE <-
+# function(x, y, ...)
+# {
+#   if(length(x) == 0)
+#     return(y)
+#   if(length(y) == 0)
+#     return(x)
+#   for (i in 1:length(names(y)))
+#     x[names(y)[i]] = y[i]
+#   return(x)
+# }
+# 
+# DSC_BDBA8F78D7 <- list()
+# input.files <- c('dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_5_runash.R_16.rds')
+# for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+# est <- DSC_BDBA8F78D7$beta_est
+# truth <- DSC_BDBA8F78D7$true_beta
+# score = function(est, truth){
+#   return(sqrt(mean((est-truth)^2)))
+# }
+# result = score(est, truth)
+# saveRDS(list(result=result), 'dsc_result/datamaker.R_5_runash.R_16_score_beta_1.rds')
+# 
+# 
+# step_sig: 0e58feb7bfa2e36c0d8be524ecc5dc19
+#started at Monday, 30. January 2017 02:59PM
+#
+#time	proc_cpu	proc_mem	children	children_cpu	children_mem
+1485809947.258641	0.00	933888	0	0	0
+1485809948.272428	0.00	47247360	0	0	0

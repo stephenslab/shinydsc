@@ -1,0 +1,3540 @@
+betahatsd = [1]g = ['ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))']max_pi0 = [1]min_pi0 = [0]nsamp = [1000]seed = [1, 2, 3, 4, 5]simulate_output = ['datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None)]DSC_UPDATES_ = OrderedDict()mixcompdist = ["'normal'", "'halfuniform'"]shrink_output = ['runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73')]DSC_UPDATES_ = OrderedDict()input_files = ['datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']beta_score_output = ['score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8cdfc6289d43a21eb7474784e1570f60:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:81bb54891f7c689b59ca78e7c6325a84:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8397712ca0f56352587f9bd3247bd729:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:fb703a5b2832f35ab4a0d2491946a571:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:837e4ed20df8cef4f118211b250fad82:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:79de154c59c33d1a0710337031ba50c1:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:1c715237b32ef50c570cc6abc292ea73:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8cdfc6289d43a21eb7474784e1570f60:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:81bb54891f7c689b59ca78e7c6325a84:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:8397712ca0f56352587f9bd3247bd729:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:fb703a5b2832f35ab4a0d2491946a571:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:837e4ed20df8cef4f118211b250fad82:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:79de154c59c33d1a0710337031ba50c1:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'score_beta:07b7ceedadd533227267092d640d2151:datamaker.R:1c715237b32ef50c570cc6abc292ea73:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'score_beta')], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'score_beta')], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'score_beta')], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'score_beta')], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'score_beta')], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'score_beta')], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'score_beta')], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'score_beta')], 'datamaker.R:8397712ca0f56352587f9bd3247bd729 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'score_beta')], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'score_beta')], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'score_beta')], 'datamaker.R:837e4ed20df8cef4f118211b250fad82 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'score_beta')], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'score_beta')], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'score_beta')], 'datamaker.R:79de154c59c33d1a0710337031ba50c1 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'score_beta')], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73'), ([('exec', 'score_beta')], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'score_beta')], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'score_beta')], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'score_beta')], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'score_beta')], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'score_beta')], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'score_beta')], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'score_beta')], 'datamaker.R:8397712ca0f56352587f9bd3247bd729 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'score_beta')], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'score_beta')], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'score_beta')], 'datamaker.R:837e4ed20df8cef4f118211b250fad82 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'score_beta')], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'score_beta')], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'score_beta')], 'datamaker.R:79de154c59c33d1a0710337031ba50c1 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'score_beta')], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73')]DSC_UPDATES_ = OrderedDict()betahatsd = [1]g = ['ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))']max_pi0 = [1]min_pi0 = [0]nsamp = [1000]seed = [1, 2, 3, 4, 5]simulate_output = ['datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 1), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 2), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 3), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 4), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))'), ('betahatsd', 1)], None), ([('exec', 'datamaker.R'), ('seed', 5), ('nsamp', 1000), ('min_pi0', 0), ('max_pi0', 1), ('g', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))'), ('betahatsd', 1)], None)]DSC_UPDATES_ = OrderedDict()mixcompdist = ["'normal'", "'halfuniform'"]shrink_output = ['runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'runash.R'), ('mixcompdist', "'normal'")], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'runash.R'), ('mixcompdist', "'halfuniform'")], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73')]DSC_UPDATES_ = OrderedDict()input_files = ['datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'datamaker.R:8397712ca0f56352587f9bd3247bd729', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'datamaker.R:837e4ed20df8cef4f118211b250fad82', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'datamaker.R:79de154c59c33d1a0710337031ba50c1', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']pi0_score_output = ['score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8cdfc6289d43a21eb7474784e1570f60:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:81bb54891f7c689b59ca78e7c6325a84:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8397712ca0f56352587f9bd3247bd729:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:fb703a5b2832f35ab4a0d2491946a571:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:837e4ed20df8cef4f118211b250fad82:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:79de154c59c33d1a0710337031ba50c1:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:1c715237b32ef50c570cc6abc292ea73:runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8cdfc6289d43a21eb7474784e1570f60:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:81bb54891f7c689b59ca78e7c6325a84:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:8397712ca0f56352587f9bd3247bd729:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:fb703a5b2832f35ab4a0d2491946a571:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:837e4ed20df8cef4f118211b250fad82:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:79de154c59c33d1a0710337031ba50c1:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1', 'score_pi0:0597cd0ee506f1d4731a50fbe4c2c79b:datamaker.R:1c715237b32ef50c570cc6abc292ea73:runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73']DSC_PARAMS_ = [([('exec', 'score_pi0')], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'score_pi0')], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'score_pi0')], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'score_pi0')], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'score_pi0')], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'score_pi0')], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'score_pi0')], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'score_pi0')], 'datamaker.R:8397712ca0f56352587f9bd3247bd729 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'score_pi0')], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'score_pi0')], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'score_pi0')], 'datamaker.R:837e4ed20df8cef4f118211b250fad82 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'score_pi0')], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'score_pi0')], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'score_pi0')], 'datamaker.R:79de154c59c33d1a0710337031ba50c1 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'score_pi0')], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73 runash.R:82065e93d12f53b4bd98832bbfedea7f:datamaker.R:1c715237b32ef50c570cc6abc292ea73'), ([('exec', 'score_pi0')], 'datamaker.R:8cdfc6289d43a21eb7474784e1570f60 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8cdfc6289d43a21eb7474784e1570f60'), ([('exec', 'score_pi0')], 'datamaker.R:81bb54891f7c689b59ca78e7c6325a84 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:81bb54891f7c689b59ca78e7c6325a84'), ([('exec', 'score_pi0')], 'datamaker.R:1fd3c088de6222be133c0a3bb9cd046d runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1fd3c088de6222be133c0a3bb9cd046d'), ([('exec', 'score_pi0')], 'datamaker.R:060caa8cb92dc369e8ea91b9cf508aff runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:060caa8cb92dc369e8ea91b9cf508aff'), ([('exec', 'score_pi0')], 'datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:69c77d9022d8d6beb6b9b9502f8736a9'), ([('exec', 'score_pi0')], 'datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:5a35a7b02e1a1d0aad93ac65abe9d18c'), ([('exec', 'score_pi0')], 'datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8a16e318890aaabdd3a0c20701e2c4ef'), ([('exec', 'score_pi0')], 'datamaker.R:8397712ca0f56352587f9bd3247bd729 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:8397712ca0f56352587f9bd3247bd729'), ([('exec', 'score_pi0')], 'datamaker.R:7ef9df22fdffc4df691f13e9e9977ada runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:7ef9df22fdffc4df691f13e9e9977ada'), ([('exec', 'score_pi0')], 'datamaker.R:fb703a5b2832f35ab4a0d2491946a571 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:fb703a5b2832f35ab4a0d2491946a571'), ([('exec', 'score_pi0')], 'datamaker.R:837e4ed20df8cef4f118211b250fad82 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:837e4ed20df8cef4f118211b250fad82'), ([('exec', 'score_pi0')], 'datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:d60b3d9a006ffef717d8c0c3fb0dec6d'), ([('exec', 'score_pi0')], 'datamaker.R:94dd364cb2b0816fbf8e80f0ca682471 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:94dd364cb2b0816fbf8e80f0ca682471'), ([('exec', 'score_pi0')], 'datamaker.R:79de154c59c33d1a0710337031ba50c1 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:79de154c59c33d1a0710337031ba50c1'), ([('exec', 'score_pi0')], 'datamaker.R:1c715237b32ef50c570cc6abc292ea73 runash.R:929a545d8e81f74ca6ece5765f2f9f92:datamaker.R:1c715237b32ef50c570cc6abc292ea73')]DSC_UPDATES_ = OrderedDict()vanilla = Falsebetahatsd = [1]g = ['ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))']max_pi0 = [1]min_pi0 = [0]nsamp = [1000]seed = [1, 2, 3, 4, 5]output_files = ['dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_15.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_2.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_3.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_4.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_5.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_6.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_8.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_7.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_9.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_10.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_11.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_12.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_13.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_14.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_15.rds')
+    
+    
+mixcompdist = ["'normal'", "'halfuniform'"]output_files = ['dsc_result/datamaker.R_1_runash.R_1.rds', 'dsc_result/datamaker.R_2_runash.R_1.rds', 'dsc_result/datamaker.R_3_runash.R_1.rds', 'dsc_result/datamaker.R_4_runash.R_1.rds', 'dsc_result/datamaker.R_5_runash.R_1.rds', 'dsc_result/datamaker.R_6_runash.R_1.rds', 'dsc_result/datamaker.R_7_runash.R_1.rds', 'dsc_result/datamaker.R_8_runash.R_1.rds', 'dsc_result/datamaker.R_9_runash.R_1.rds', 'dsc_result/datamaker.R_10_runash.R_1.rds', 'dsc_result/datamaker.R_11_runash.R_1.rds', 'dsc_result/datamaker.R_12_runash.R_1.rds', 'dsc_result/datamaker.R_13_runash.R_1.rds', 'dsc_result/datamaker.R_14_runash.R_1.rds', 'dsc_result/datamaker.R_15_runash.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_16.rds', 'dsc_result/datamaker.R_2_runash.R_16.rds', 'dsc_result/datamaker.R_3_runash.R_16.rds', 'dsc_result/datamaker.R_4_runash.R_16.rds', 'dsc_result/datamaker.R_5_runash.R_16.rds', 'dsc_result/datamaker.R_6_runash.R_16.rds', 'dsc_result/datamaker.R_7_runash.R_16.rds', 'dsc_result/datamaker.R_8_runash.R_16.rds', 'dsc_result/datamaker.R_9_runash.R_16.rds', 'dsc_result/datamaker.R_10_runash.R_16.rds', 'dsc_result/datamaker.R_11_runash.R_16.rds', 'dsc_result/datamaker.R_12_runash.R_16.rds', 'dsc_result/datamaker.R_13_runash.R_16.rds', 'dsc_result/datamaker.R_14_runash.R_16.rds', 'dsc_result/datamaker.R_15_runash.R_16.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_1.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_1_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_2.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_2_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_3.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_3_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_6.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_6_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_4.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_4_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_7.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_7_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_8.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_8_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_5.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_5_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_9.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_9_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_10.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_10_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_11.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_11_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_12.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_12_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_13.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_13_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_14.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_14_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_15.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_15_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_1.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_1_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_2.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_2_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_3.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_3_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_4.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_4_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_5.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_5_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_6.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_6_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_7.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_7_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_8.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_8_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_9.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_9_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_10.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_10_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_11.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_11_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_12.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_12_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_13.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_13_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_14.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_14_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_15.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_15_runash.R_16.rds')
+    
+    
+output_files = ['dsc_result/datamaker.R_1_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_2_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_3_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_4_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_5_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_6_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_7_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_8_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_9_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_10_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_11_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_12_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_13_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_14_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_15_runash.R_1_score_beta_1.rds', 'dsc_result/datamaker.R_1_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_2_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_3_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_4_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_5_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_6_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_7_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_8_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_9_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_10_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_11_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_12_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_13_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_14_runash.R_16_score_beta_1.rds', 'dsc_result/datamaker.R_15_runash.R_16_score_beta_1.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_1_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_2_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_2_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_3_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_3_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_4_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_4_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_5_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_5_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_7_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_7_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_6_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_6_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_8_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_8_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_9_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_9_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_10_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_10_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_11_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_11_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_12_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_12_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_13_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_13_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_14_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_14_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_15.rds', 'dsc_result/datamaker.R_15_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_15_runash.R_1_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_1_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_2_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_2_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_3_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_3_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_4_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_4_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_5_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_5_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_6_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_6_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_7_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_7_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_8_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_8_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_9_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_9_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_10_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_10_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_11_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_11_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_12_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_12_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_13_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_13_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_14_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_14_runash.R_16_score_beta_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_15.rds', 'dsc_result/datamaker.R_15_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$beta_est
+    truth <- DSC_BDBA8F78D7$true_beta
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_15_runash.R_16_score_beta_1.rds')
+    
+    
+betahatsd = [1]g = ['ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))', 'ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))', 'ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))']max_pi0 = [1]min_pi0 = [0]nsamp = [1000]seed = [1, 2, 3, 4, 5]output_files = ['dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_15.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_2.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(1)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_3.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_4.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_6.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(2)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_5.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_7.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_8.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(3)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_9.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_10.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_11.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(4)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_12.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(2/3,1/3),c(0,0),c(1,2))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_13.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(rep(1/7,7),c(-1.5,-1,-0.5,0,0.5,1,1.5),rep(0.5,7))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_14.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    set.seed(5)
+    args <- list()
+    args$betahatsd <- 1
+    args$g <- ashr::normalmix(c(1/4,1/4,1/3,1/6),c(-2,-1,0,1),c(2,1.5,1,1))
+    args$max_pi0 <- 1
+    args$min_pi0 <- 0
+    args$nsamp <- 1000
+    library('ashr')
+    rnormmix_datamaker = function(args){
+      #here is the meat of the function that needs to be defined for each dsc to be done
+      pi0 = runif(1,args$min_pi0,args$max_pi0) #generate the proportion of true nulls randomly
+      k = ncomp(args$g)
+      comp = sample(1:k,args$nsamp,mixprop(args$g),replace=TRUE) #randomly draw a component
+      isnull = (runif(args$nsamp,0,1) < pi0)
+      beta = ifelse(isnull, 0,rnorm(args$nsamp,comp_mean(args$g)[comp],comp_sd(args$g)[comp]))
+      sebetahat = args$betahatsd
+      betahat = beta + rnorm(args$nsamp,0,sebetahat)
+      meta=list(beta=beta,pi0=pi0)
+      input=list(betahat=betahat,sebetahat=sebetahat)
+      #end of meat of function
+      data = list(meta=meta,input=input)
+      return(data)
+    }
+    data = rnormmix_datamaker(args)
+    true_beta <- data$meta$beta
+    true_pi0 <- data$meta$pi0
+    saveRDS(list(data=data, true_beta=true_beta, true_pi0=true_pi0), 'dsc_result/datamaker.R_15.rds')
+    
+    
+mixcompdist = ["'normal'", "'halfuniform'"]output_files = ['dsc_result/datamaker.R_1_runash.R_1.rds', 'dsc_result/datamaker.R_2_runash.R_1.rds', 'dsc_result/datamaker.R_3_runash.R_1.rds', 'dsc_result/datamaker.R_4_runash.R_1.rds', 'dsc_result/datamaker.R_5_runash.R_1.rds', 'dsc_result/datamaker.R_6_runash.R_1.rds', 'dsc_result/datamaker.R_7_runash.R_1.rds', 'dsc_result/datamaker.R_8_runash.R_1.rds', 'dsc_result/datamaker.R_9_runash.R_1.rds', 'dsc_result/datamaker.R_10_runash.R_1.rds', 'dsc_result/datamaker.R_11_runash.R_1.rds', 'dsc_result/datamaker.R_12_runash.R_1.rds', 'dsc_result/datamaker.R_13_runash.R_1.rds', 'dsc_result/datamaker.R_14_runash.R_1.rds', 'dsc_result/datamaker.R_15_runash.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_16.rds', 'dsc_result/datamaker.R_2_runash.R_16.rds', 'dsc_result/datamaker.R_3_runash.R_16.rds', 'dsc_result/datamaker.R_4_runash.R_16.rds', 'dsc_result/datamaker.R_5_runash.R_16.rds', 'dsc_result/datamaker.R_6_runash.R_16.rds', 'dsc_result/datamaker.R_7_runash.R_16.rds', 'dsc_result/datamaker.R_8_runash.R_16.rds', 'dsc_result/datamaker.R_9_runash.R_16.rds', 'dsc_result/datamaker.R_10_runash.R_16.rds', 'dsc_result/datamaker.R_11_runash.R_16.rds', 'dsc_result/datamaker.R_12_runash.R_16.rds', 'dsc_result/datamaker.R_13_runash.R_16.rds', 'dsc_result/datamaker.R_14_runash.R_16.rds', 'dsc_result/datamaker.R_15_runash.R_16.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_1.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_1_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_2.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_2_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_3.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_3_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_4.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_4_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_5.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_5_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_6.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_6_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_7.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_7_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_8.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_8_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_9.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_9_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_10.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_10_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_11.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_11_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_12.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_12_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_13.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_13_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_14.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_14_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_15.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'normal'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_15_runash.R_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_1.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_1_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_2.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_2_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_3.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_3_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_4.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_4_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_5.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_5_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_6.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_6_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_7.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_7_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_8.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_8_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_9.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_9_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_10.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_10_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_11.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_11_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_12.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_12_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_13.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_13_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_14.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_14_runash.R_16.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_220D5D6DAE <- readRDS("dsc_result/datamaker.R_15.rds")
+    input <- DSC_220D5D6DAE$data
+    
+    mixcompdist <- 'halfuniform'
+    library(ashr)
+    ash.wrapper=function(input,args=NULL){
+      if(is.null(args)){
+        args=list(mixcompdist="halfuniform",method="fdr")
+      }
+      res = do.call(ash, args=c(list(betahat=input$betahat,sebetahat=input$sebetahat),args))
+      return(res)
+    }
+    ash_data = ash.wrapper(input$input, list(mixcompdist = mixcompdist, optmethod = "mixEM"))
+    beta_est <- ash_data$PosteriorMean
+    pi0_est <- ashr::get_pi0(ash_data)
+    saveRDS(list(ash_data=ash_data, beta_est=beta_est, pi0_est=pi0_est), 'dsc_result/datamaker.R_15_runash.R_16.rds')
+    
+    
+output_files = ['dsc_result/datamaker.R_1_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_2_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_3_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_4_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_5_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_6_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_7_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_8_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_9_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_10_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_11_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_12_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_13_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_14_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_15_runash.R_1_score_pi0_1.rds', 'dsc_result/datamaker.R_1_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_2_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_3_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_4_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_5_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_6_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_7_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_8_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_9_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_10_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_11_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_12_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_13_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_14_runash.R_16_score_pi0_1.rds', 'dsc_result/datamaker.R_15_runash.R_16_score_pi0_1.rds']Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_1_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_2_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_2_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_4_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_4_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_3_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_3_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_5_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_5_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_6_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_6_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_8_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_8_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_7_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_7_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_9_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_9_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_10_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_10_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_11_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_11_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_12_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_12_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_13_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_13_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_14_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_14_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_15.rds', 'dsc_result/datamaker.R_15_runash.R_1.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_15_runash.R_1_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_1.rds', 'dsc_result/datamaker.R_1_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_1_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_2.rds', 'dsc_result/datamaker.R_2_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_2_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_3.rds', 'dsc_result/datamaker.R_3_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_3_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_4.rds', 'dsc_result/datamaker.R_4_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_4_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_5.rds', 'dsc_result/datamaker.R_5_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_5_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_6.rds', 'dsc_result/datamaker.R_6_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_6_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_7.rds', 'dsc_result/datamaker.R_7_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_7_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_8.rds', 'dsc_result/datamaker.R_8_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_8_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_9.rds', 'dsc_result/datamaker.R_9_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_9_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_10.rds', 'dsc_result/datamaker.R_10_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_10_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_11.rds', 'dsc_result/datamaker.R_11_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_11_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_12.rds', 'dsc_result/datamaker.R_12_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_12_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_13.rds', 'dsc_result/datamaker.R_13_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_13_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_14.rds', 'dsc_result/datamaker.R_14_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_14_runash.R_16_score_pi0_1.rds')
+    
+    
+Rscript --default-packages=datasets,methods,utils,stats,grDevices,graphics :
+    DSC_LMERGE <-
+    function(x, y, ...)
+    {
+      if(length(x) == 0)
+        return(y)
+      if(length(y) == 0)
+        return(x)
+      for (i in 1:length(names(y)))
+        x[names(y)[i]] = y[i]
+      return(x)
+    }
+    
+    DSC_BDBA8F78D7 <- list()
+    input.files <- c('dsc_result/datamaker.R_15.rds', 'dsc_result/datamaker.R_15_runash.R_16.rds')
+    for (i in 1:length(input.files)) DSC_BDBA8F78D7 <- DSC_LMERGE(DSC_BDBA8F78D7, readRDS(input.files[i]))
+    est <- DSC_BDBA8F78D7$pi0_est
+    truth <- DSC_BDBA8F78D7$true_pi0
+    score = function(est, truth){
+      return(sqrt(mean((est-truth)^2)))
+    }
+    result = score(est, truth)
+    saveRDS(list(result=result), 'dsc_result/datamaker.R_15_runash.R_16_score_pi0_1.rds')
+    
+    

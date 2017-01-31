@@ -1,0 +1,5 @@
+strict digraph "" {
+"DSC_1 (DSC sequence 1)";
+"DSC_2 (DSC sequence 2)";
+"DSC_1 (DSC sequence 1)" -> "DSC_2 (DSC sequence 2)";
+}

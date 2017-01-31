@@ -1,0 +1,293 @@
+# workflow: simulate:1+shrink:1+beta_score:1
+# script: None
+# included: 
+# configuration: None
+# start time: Mon, 30 Jan 2017 20:58:26 +0000
+# Sections
+simulate_1 (datamaker.R): c77c72b9caa5c2d1140b1e7a00a29396
+shrink_1 (runash.R): 7657accc0e8f6737ef9c306dcb27157e
+beta_score_1 (score_beta): 52eedb2f39049f8438ab8eb2e5c9d76f
+# Command line options
+{'sequence_id': '1', '__args__': []}
+# runtime signatures
+EXE_RESOURCE	session=f6c60f318ef44ae50235cba5bbd8fdae	nproc=0	start=1485809907.779479	end=1485809908.789876	cpu_peak=0.0	cpu_avg=0.0	mem_peak=44.4Mb	mem_avg=22.2Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=f6c60f318ef44ae50235cba5bbd8fdae
+OUT_FILE	filename=dsc_result/datamaker.R_1.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=13290	md5=74e7d1af867f4a0bd0c2d1fe470ac58b
+EXE_RESOURCE	session=609faf0b12898a99cfa48e5143c3dabd	nproc=0	start=1485809907.845013	end=1485809908.8624651	cpu_peak=0.0	cpu_avg=0.0	mem_peak=45.4Mb	mem_avg=23.8Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=609faf0b12898a99cfa48e5143c3dabd
+OUT_FILE	filename=dsc_result/datamaker.R_5.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=10951	md5=c1b0665acf00ce945c9e16c1abda6734
+EXE_RESOURCE	session=0c851fb4304b4d1f66b72b0839f2928c	nproc=0	start=1485809907.844783	end=1485809908.862934	cpu_peak=0.0	cpu_avg=0.0	mem_peak=45.5Mb	mem_avg=22.8Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=0c851fb4304b4d1f66b72b0839f2928c
+OUT_FILE	filename=dsc_result/datamaker.R_7.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=9934	md5=8131dfe71c0bb7cb23475996ad42b734
+EXE_RESOURCE	session=7802ef8e10d296ed0777d83253af47ea	nproc=0	start=1485809907.844782	end=1485809908.863474	cpu_peak=0.0	cpu_avg=0.0	mem_peak=44.3Mb	mem_avg=23.2Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=7802ef8e10d296ed0777d83253af47ea
+OUT_FILE	filename=dsc_result/datamaker.R_6.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=10974	md5=5aed1e09382c05222fd6f481aaa891be
+EXE_RESOURCE	session=8399ab3dd3aca888ea0451e100d6fd9d	nproc=0	start=1485809907.845063	end=1485809908.8617659	cpu_peak=0.0	cpu_avg=0.0	mem_peak=43.6Mb	mem_avg=21.8Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=8399ab3dd3aca888ea0451e100d6fd9d
+OUT_FILE	filename=dsc_result/datamaker.R_8.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=9904	md5=11c196ed385c4e638a3ba1c0789d9350
+EXE_RESOURCE	session=3b84c30474f42c90210b479d2371852f	nproc=0	start=1485809907.789269	end=1485809908.801239	cpu_peak=0.0	cpu_avg=0.0	mem_peak=42.6Mb	mem_avg=22.2Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=3b84c30474f42c90210b479d2371852f
+OUT_FILE	filename=dsc_result/datamaker.R_3.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=13297	md5=71373e3f3429a51f1e1ba9410794a6cb
+EXE_RESOURCE	session=022813e65afd299a22b030eef31aeb52	nproc=0	start=1485809907.844783	end=1485809908.857019	cpu_peak=0.0	cpu_avg=0.0	mem_peak=43.5Mb	mem_avg=21.8Mb
+EXE_RESOURCE	session=6e4117138da88d0b125e218ade9c6a97	nproc=0	start=1485809907.7627819	end=1485809908.774405	cpu_peak=0.0	cpu_avg=0.0	mem_peak=42.9Mb	mem_avg=22.0Mb
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=6e4117138da88d0b125e218ade9c6a97
+OUT_FILE	filename=dsc_result/datamaker.R_2.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=13269	md5=c7494c6961250f61819c92e8e67ea272
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=022813e65afd299a22b030eef31aeb52
+OUT_FILE	filename=dsc_result/datamaker.R_4.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=10961	md5=cc48eee7427e44aa38c0802555ffd02c
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=cca39f864822c10b8077723eeba62730
+OUT_FILE	filename=dsc_result/datamaker.R_9.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=9946	md5=e7a5310ccbdb13a73c70a3b3a266ea84
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=17058b332e5ca3c92e41ad359ed177da
+OUT_FILE	filename=dsc_result/datamaker.R_14.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=11056	md5=6e7ee11ab27be8f7d53db6ff380f848a
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=7d027f7a1ed180ef01679566e3b64407
+OUT_FILE	filename=dsc_result/datamaker.R_10.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=15740	md5=6f5a11e9e098bd52f53bf9b0542f131f
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=0c0865abb6c36668ae79d26fd3cad120
+OUT_FILE	filename=dsc_result/datamaker.R_11.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=15718	md5=e101930e579522b33a4df40fe9929063
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=8fd51b493425dcac245c79c56f84a61f
+OUT_FILE	filename=dsc_result/datamaker.R_13.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=11097	md5=6b94435d1c7329497898ade083bc3145
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=77f6be0831304f2c245ce75bb3736315
+OUT_FILE	filename=dsc_result/datamaker.R_15.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=11101	md5=ba132488edda25885e6360c25f94d453
+EXE_SIG	step=c77c72b9caa5c2d1140b1e7a00a29396	session=5b587347b126ff30ec54e98c77e30c0e
+OUT_FILE	filename=dsc_result/datamaker.R_12.rds	session=c77c72b9caa5c2d1140b1e7a00a29396	size=15752	md5=f2dabd4e62d35a02cc16992095203b36
+EXE_RESOURCE	session=60200e92e350fb4c4a75de8533c0e101	nproc=0	start=1485809912.2781482	end=1485809917.338857	cpu_peak=0.0	cpu_avg=0.0	mem_peak=102.5Mb	mem_avg=61.8Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=60200e92e350fb4c4a75de8533c0e101
+IN_FILE	filename=dsc_result/datamaker.R_6.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10974	md5=5aed1e09382c05222fd6f481aaa891be
+OUT_FILE	filename=dsc_result/datamaker.R_6_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77555	md5=906ac893d1083e1c4876e8eabd3befc6
+EXE_RESOURCE	session=2e1280f9fdc8519f97c94e7deefec0e2	nproc=0	start=1485809912.2681742	end=1485809917.328678	cpu_peak=0.0	cpu_avg=0.0	mem_peak=103.0Mb	mem_avg=61.8Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=2e1280f9fdc8519f97c94e7deefec0e2
+IN_FILE	filename=dsc_result/datamaker.R_5.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10951	md5=c1b0665acf00ce945c9e16c1abda6734
+OUT_FILE	filename=dsc_result/datamaker.R_5_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77418	md5=799b84475ea8f935b29b6c3b768c3078
+EXE_RESOURCE	session=0d09ac805f31461d4b6e2e1429a93144	nproc=0	start=1485809912.16154	end=1485809917.226511	cpu_peak=0.0	cpu_avg=0.0	mem_peak=102.2Mb	mem_avg=61.2Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=0d09ac805f31461d4b6e2e1429a93144
+IN_FILE	filename=dsc_result/datamaker.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13290	md5=74e7d1af867f4a0bd0c2d1fe470ac58b
+OUT_FILE	filename=dsc_result/datamaker.R_1_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77763	md5=dbb9b39d8d3d0736d64112e380d7290a
+EXE_RESOURCE	session=1e5ba3aa12466d356aa909a07ef5bd95	nproc=0	start=1485809912.234484	end=1485809917.3135302	cpu_peak=0.0	cpu_avg=0.0	mem_peak=103.0Mb	mem_avg=62.7Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=1e5ba3aa12466d356aa909a07ef5bd95
+IN_FILE	filename=dsc_result/datamaker.R_3.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13297	md5=71373e3f3429a51f1e1ba9410794a6cb
+OUT_FILE	filename=dsc_result/datamaker.R_3_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77934	md5=efd36f4c3f8678dd1c989b1c4e500a02
+EXE_RESOURCE	session=35bcb709d74c535031e5c12f56f35de8	nproc=0	start=1485809912.234333	end=1485809917.313659	cpu_peak=0.0	cpu_avg=0.0	mem_peak=102.3Mb	mem_avg=59.4Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=35bcb709d74c535031e5c12f56f35de8
+IN_FILE	filename=dsc_result/datamaker.R_7.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9934	md5=8131dfe71c0bb7cb23475996ad42b734
+OUT_FILE	filename=dsc_result/datamaker.R_7_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77231	md5=8db41eb3a9e0843fa606f1f06f5cc730
+EXE_RESOURCE	session=ea3122181023215400b49420352f823b	nproc=0	start=1485809912.2606342	end=1485809917.31809	cpu_peak=0.0	cpu_avg=0.0	mem_peak=90.1Mb	mem_avg=56.9Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=ea3122181023215400b49420352f823b
+IN_FILE	filename=dsc_result/datamaker.R_8.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9904	md5=11c196ed385c4e638a3ba1c0789d9350
+OUT_FILE	filename=dsc_result/datamaker.R_8_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77052	md5=e8f7f3ffd531dc671f6c2003129a1ced
+EXE_RESOURCE	session=5b1c273711e8267fb17b75c0598bd964	nproc=0	start=1485809912.233932	end=1485809918.330128	cpu_peak=0.0	cpu_avg=0.0	mem_peak=97.8Mb	mem_avg=54.2Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=5b1c273711e8267fb17b75c0598bd964
+IN_FILE	filename=dsc_result/datamaker.R_2.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13269	md5=c7494c6961250f61819c92e8e67ea272
+OUT_FILE	filename=dsc_result/datamaker.R_2_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77634	md5=061a3d78fbe13ecb21e1be6408fc044a
+EXE_RESOURCE	session=5c74d4f691aa9ec8d21e5d89103a6557	nproc=0	start=1485809912.244693	end=1485809920.352889	cpu_peak=0.0	cpu_avg=0.0	mem_peak=127.6Mb	mem_avg=82.3Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=5c74d4f691aa9ec8d21e5d89103a6557
+IN_FILE	filename=dsc_result/datamaker.R_4.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10961	md5=cc48eee7427e44aa38c0802555ffd02c
+OUT_FILE	filename=dsc_result/datamaker.R_4_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77479	md5=2eb68a0dac0ee323c02eb5e9c31aea43
+EXE_RESOURCE	session=7a492de95f366ea8ca98b689d31149f5	nproc=0	start=1485809918.990676	end=1485809923.039573	cpu_peak=0.0	cpu_avg=0.0	mem_peak=94.6Mb	mem_avg=54.4Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=7a492de95f366ea8ca98b689d31149f5
+IN_FILE	filename=dsc_result/datamaker.R_12.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15752	md5=f2dabd4e62d35a02cc16992095203b36
+OUT_FILE	filename=dsc_result/datamaker.R_12_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=78087	md5=beb21cc59c6051c3345f5103bb5e08ba
+EXE_RESOURCE	session=8aec28863cefc2829faefa4e2de2eb46	nproc=0	start=1485809918.897625	end=1485809922.939861	cpu_peak=0.0	cpu_avg=0.0	mem_peak=94.3Mb	mem_avg=53.9Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=8aec28863cefc2829faefa4e2de2eb46
+IN_FILE	filename=dsc_result/datamaker.R_11.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15718	md5=e101930e579522b33a4df40fe9929063
+OUT_FILE	filename=dsc_result/datamaker.R_11_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77754	md5=10d07965f10798f09e27c1191b0bd0a0
+EXE_RESOURCE	session=10d16ef39e6666bc0eb1b840a4079d71	nproc=0	start=1485809919.332581	end=1485809923.376821	cpu_peak=0.0	cpu_avg=0.0	mem_peak=95.7Mb	mem_avg=57.1Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=10d16ef39e6666bc0eb1b840a4079d71
+IN_FILE	filename=dsc_result/datamaker.R_14.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11056	md5=6e7ee11ab27be8f7d53db6ff380f848a
+OUT_FILE	filename=dsc_result/datamaker.R_14_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77362	md5=020cf024b234a80647c6725ed591d02e
+EXE_RESOURCE	session=c2215bd20ad1edb0987f1f8729eeee61	nproc=0	start=1485809918.877814	end=1485809923.938546	cpu_peak=0.0	cpu_avg=0.0	mem_peak=113.0Mb	mem_avg=64.0Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=c2215bd20ad1edb0987f1f8729eeee61
+IN_FILE	filename=dsc_result/datamaker.R_10.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15740	md5=6f5a11e9e098bd52f53bf9b0542f131f
+OUT_FILE	filename=dsc_result/datamaker.R_10_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77888	md5=f548facf7505b1032d7353d7755cf503
+EXE_RESOURCE	session=33bb4d21f3109ea0201984c3f48475e8	nproc=0	start=1485809918.694417	end=1485809923.751853	cpu_peak=0.0	cpu_avg=0.0	mem_peak=113.4Mb	mem_avg=62.8Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=33bb4d21f3109ea0201984c3f48475e8
+IN_FILE	filename=dsc_result/datamaker.R_9.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9946	md5=e7a5310ccbdb13a73c70a3b3a266ea84
+OUT_FILE	filename=dsc_result/datamaker.R_9_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77190	md5=11fd6eb532244ef236ed80f20ebedc21
+EXE_RESOURCE	session=20ec777ec795e4240438960d43531afd	nproc=0	start=1485809919.96998	end=1485809924.0109282	cpu_peak=0.0	cpu_avg=0.0	mem_peak=95.6Mb	mem_avg=58.9Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=20ec777ec795e4240438960d43531afd
+IN_FILE	filename=dsc_result/datamaker.R_15.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11101	md5=ba132488edda25885e6360c25f94d453
+OUT_FILE	filename=dsc_result/datamaker.R_15_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77632	md5=e7eb9ccd63204ccd428415e39e8320a7
+EXE_RESOURCE	session=82b49255cbb38fac3bfd1a681186f205	nproc=0	start=1485809921.8711412	end=1485809930.9682791	cpu_peak=0.0	cpu_avg=0.0	mem_peak=122.1Mb	mem_avg=87.6Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=82b49255cbb38fac3bfd1a681186f205
+IN_FILE	filename=dsc_result/datamaker.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13290	md5=74e7d1af867f4a0bd0c2d1fe470ac58b
+OUT_FILE	filename=dsc_result/datamaker.R_1_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77812	md5=ddb1d6f2da1fb01d039f454ec7a68a11
+EXE_RESOURCE	session=656edcbbfbf5a3e8501b1b636272c2d9	nproc=0	start=1485809924.765804	end=1485809931.858044	cpu_peak=0.0	cpu_avg=0.0	mem_peak=121.1Mb	mem_avg=76.9Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=656edcbbfbf5a3e8501b1b636272c2d9
+IN_FILE	filename=dsc_result/datamaker.R_3.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13297	md5=71373e3f3429a51f1e1ba9410794a6cb
+OUT_FILE	filename=dsc_result/datamaker.R_3_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=78030	md5=79a58d6501e6ef7bc5098bef1322230c
+EXE_RESOURCE	session=6a70670338e9f9fab2ed1a86225e20bd	nproc=0	start=1485809924.6521862	end=1485809931.766986	cpu_peak=0.0	cpu_avg=0.0	mem_peak=121.4Mb	mem_avg=76.6Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=6a70670338e9f9fab2ed1a86225e20bd
+IN_FILE	filename=dsc_result/datamaker.R_2.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=13269	md5=c7494c6961250f61819c92e8e67ea272
+OUT_FILE	filename=dsc_result/datamaker.R_2_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77732	md5=61afca811ae4689791e54d10b43226a6
+EXE_RESOURCE	session=e083bebc5327465ef3c5079c3d6b6cac	nproc=0	start=1485809925.1659641	end=1485809932.260353	cpu_peak=0.0	cpu_avg=0.0	mem_peak=119.6Mb	mem_avg=76.7Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=e083bebc5327465ef3c5079c3d6b6cac
+IN_FILE	filename=dsc_result/datamaker.R_5.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10951	md5=c1b0665acf00ce945c9e16c1abda6734
+OUT_FILE	filename=dsc_result/datamaker.R_5_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77636	md5=57c7db450c4efa0a006b8577db5e6f7f
+EXE_RESOURCE	session=f2a8fe0b3b9bbb695d3f3dca6a4a01ac	nproc=0	start=1485809925.079575	end=1485809933.188378	cpu_peak=0.0	cpu_avg=0.0	mem_peak=117.2Mb	mem_avg=80.4Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=f2a8fe0b3b9bbb695d3f3dca6a4a01ac
+IN_FILE	filename=dsc_result/datamaker.R_4.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10961	md5=cc48eee7427e44aa38c0802555ffd02c
+OUT_FILE	filename=dsc_result/datamaker.R_4_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77534	md5=579a67d1031b76d752fc502e69baf9c6
+EXE_RESOURCE	session=3efd7a6835b258cb07b72a1680b865ac	nproc=0	start=1485809925.8030772	end=1485809932.908224	cpu_peak=0.0	cpu_avg=0.0	mem_peak=119.4Mb	mem_avg=76.2Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=3efd7a6835b258cb07b72a1680b865ac
+IN_FILE	filename=dsc_result/datamaker.R_7.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9934	md5=8131dfe71c0bb7cb23475996ad42b734
+OUT_FILE	filename=dsc_result/datamaker.R_7_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77388	md5=42822b0fe40ebff69a5602ae09af1fba
+EXE_RESOURCE	session=8bddc80af0805d735841bcc398afa4c5	nproc=0	start=1485809925.8025222	end=1485809933.908244	cpu_peak=0.0	cpu_avg=0.0	mem_peak=118.3Mb	mem_avg=80.8Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=8bddc80af0805d735841bcc398afa4c5
+IN_FILE	filename=dsc_result/datamaker.R_6.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=10974	md5=5aed1e09382c05222fd6f481aaa891be
+OUT_FILE	filename=dsc_result/datamaker.R_6_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77572	md5=57b15631fcfee4c6cb5037d86beea38f
+EXE_RESOURCE	session=28dd70942bd3c6aa4bafd9b22ec874e3	nproc=0	start=1485809918.999489	end=1485809935.198785	cpu_peak=0.0	cpu_avg=0.0	mem_peak=115.7Mb	mem_avg=96.4Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=28dd70942bd3c6aa4bafd9b22ec874e3
+IN_FILE	filename=dsc_result/datamaker.R_13.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11097	md5=6b94435d1c7329497898ade083bc3145
+OUT_FILE	filename=dsc_result/datamaker.R_13_runash.R_1.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77583	md5=df36d0e6c256c4d1f74a583649b0b130
+EXE_RESOURCE	session=6d757408ec9713b3ba4abe9d918e5edb	nproc=0	start=1485809932.604239	end=1485809939.695026	cpu_peak=0.0	cpu_avg=0.0	mem_peak=119.6Mb	mem_avg=76.3Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=6d757408ec9713b3ba4abe9d918e5edb
+IN_FILE	filename=dsc_result/datamaker.R_8.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9904	md5=11c196ed385c4e638a3ba1c0789d9350
+OUT_FILE	filename=dsc_result/datamaker.R_8_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77216	md5=dbbd53087bf86a8f10f7e74290b4b161
+EXE_RESOURCE	session=962358409e3a01a98d9bdb0fa2a205c6	nproc=0	start=1485809934.2362611	end=1485809940.3126268	cpu_peak=0.0	cpu_avg=0.0	mem_peak=120.7Mb	mem_avg=71.9Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=962358409e3a01a98d9bdb0fa2a205c6
+IN_FILE	filename=dsc_result/datamaker.R_11.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15718	md5=e101930e579522b33a4df40fe9929063
+OUT_FILE	filename=dsc_result/datamaker.R_11_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77804	md5=6742530fab0f498174b31321b78d742f
+EXE_RESOURCE	session=8f3b21e303f30253bcb8d122936470e2	nproc=0	start=1485809933.618933	end=1485809940.709982	cpu_peak=0.0	cpu_avg=0.0	mem_peak=120.5Mb	mem_avg=77.5Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=8f3b21e303f30253bcb8d122936470e2
+IN_FILE	filename=dsc_result/datamaker.R_10.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15740	md5=6f5a11e9e098bd52f53bf9b0542f131f
+OUT_FILE	filename=dsc_result/datamaker.R_10_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=78155	md5=ebd56e6af76c42a62ad74eed7934519e
+EXE_RESOURCE	session=fdd45ba696bfe4b7d54e0246018294c4	nproc=0	start=1485809934.807572	end=1485809940.885704	cpu_peak=0.0	cpu_avg=0.0	mem_peak=119.8Mb	mem_avg=72.3Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=fdd45ba696bfe4b7d54e0246018294c4
+IN_FILE	filename=dsc_result/datamaker.R_12.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=15752	md5=f2dabd4e62d35a02cc16992095203b36
+OUT_FILE	filename=dsc_result/datamaker.R_12_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=78219	md5=d2279441219dada143ce6f9355871bfb
+EXE_RESOURCE	session=d95aa95cddb72ec9d853808a8fa8087a	nproc=0	start=1485809934.84891	end=1485809940.9246762	cpu_peak=0.0	cpu_avg=0.0	mem_peak=117.5Mb	mem_avg=73.2Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=d95aa95cddb72ec9d853808a8fa8087a
+IN_FILE	filename=dsc_result/datamaker.R_13.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11097	md5=6b94435d1c7329497898ade083bc3145
+OUT_FILE	filename=dsc_result/datamaker.R_13_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77748	md5=ca235d8f0cf6f300a8bc411afaf871d5
+EXE_RESOURCE	session=4d73cb7f2763acf5e292e8a2901a8504	nproc=0	start=1485809933.593485	end=1485809941.747745	cpu_peak=0.0	cpu_avg=0.0	mem_peak=120.4Mb	mem_avg=81.8Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=4d73cb7f2763acf5e292e8a2901a8504
+IN_FILE	filename=dsc_result/datamaker.R_9.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=9946	md5=e7a5310ccbdb13a73c70a3b3a266ea84
+OUT_FILE	filename=dsc_result/datamaker.R_9_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77372	md5=22fb2e8f45ce182f0e94fabad7d77846
+EXE_RESOURCE	session=fc812ccd7fd7001512b8df3302b28c98	nproc=0	start=1485809935.882646	end=1485809941.9796748	cpu_peak=0.0	cpu_avg=0.0	mem_peak=115.9Mb	mem_avg=73.4Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=fc812ccd7fd7001512b8df3302b28c98
+IN_FILE	filename=dsc_result/datamaker.R_14.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11056	md5=6e7ee11ab27be8f7d53db6ff380f848a
+OUT_FILE	filename=dsc_result/datamaker.R_14_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77462	md5=ed01b6313cb319e33ea1e4d30b0ee17f
+EXE_RESOURCE	session=c190b46b3d70a8dc64560605c035576e	nproc=0	start=1485809937.113028	end=1485809942.169992	cpu_peak=0.0	cpu_avg=0.0	mem_peak=114.0Mb	mem_avg=67.7Mb
+EXE_SIG	step=7657accc0e8f6737ef9c306dcb27157e	session=c190b46b3d70a8dc64560605c035576e
+IN_FILE	filename=dsc_result/datamaker.R_15.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=11101	md5=ba132488edda25885e6360c25f94d453
+OUT_FILE	filename=dsc_result/datamaker.R_15_runash.R_16.rds	session=7657accc0e8f6737ef9c306dcb27157e	size=77739	md5=f26a83444ff7b8f0d1a39ce4965e9cde
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=04d0caf3d1389908b6e3b5e0c8ba0e56
+IN_FILE	filename=dsc_result/datamaker.R_6.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10974	md5=5aed1e09382c05222fd6f481aaa891be
+IN_FILE	filename=dsc_result/datamaker.R_6_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77555	md5=906ac893d1083e1c4876e8eabd3befc6
+OUT_FILE	filename=dsc_result/datamaker.R_6_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=b30c37e58579dd68d4bfa0ad016f07aa
+IN_FILE	filename=dsc_result/datamaker.R_2.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13269	md5=c7494c6961250f61819c92e8e67ea272
+IN_FILE	filename=dsc_result/datamaker.R_2_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77634	md5=061a3d78fbe13ecb21e1be6408fc044a
+OUT_FILE	filename=dsc_result/datamaker.R_2_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=6baf9b4fc13a31d7e97ab6d48dd49bc5
+IN_FILE	filename=dsc_result/datamaker.R_3.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13297	md5=71373e3f3429a51f1e1ba9410794a6cb
+IN_FILE	filename=dsc_result/datamaker.R_3_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77934	md5=efd36f4c3f8678dd1c989b1c4e500a02
+OUT_FILE	filename=dsc_result/datamaker.R_3_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=4b63db56300f21e6cbfa1802c0be786c
+IN_FILE	filename=dsc_result/datamaker.R_5.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10951	md5=c1b0665acf00ce945c9e16c1abda6734
+IN_FILE	filename=dsc_result/datamaker.R_5_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77418	md5=799b84475ea8f935b29b6c3b768c3078
+OUT_FILE	filename=dsc_result/datamaker.R_5_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=f6cdde5e3fc542ae293661130e78a3d2
+IN_FILE	filename=dsc_result/datamaker.R_7.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9934	md5=8131dfe71c0bb7cb23475996ad42b734
+IN_FILE	filename=dsc_result/datamaker.R_7_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77231	md5=8db41eb3a9e0843fa606f1f06f5cc730
+OUT_FILE	filename=dsc_result/datamaker.R_7_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=9e721b91b4bbe793ef8f472721d9a9dc
+IN_FILE	filename=dsc_result/datamaker.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13290	md5=74e7d1af867f4a0bd0c2d1fe470ac58b
+IN_FILE	filename=dsc_result/datamaker.R_1_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77763	md5=dbb9b39d8d3d0736d64112e380d7290a
+OUT_FILE	filename=dsc_result/datamaker.R_1_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=ace7f3d90e1c3b6bcc7028789df52aa8
+IN_FILE	filename=dsc_result/datamaker.R_8.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9904	md5=11c196ed385c4e638a3ba1c0789d9350
+IN_FILE	filename=dsc_result/datamaker.R_8_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77052	md5=e8f7f3ffd531dc671f6c2003129a1ced
+OUT_FILE	filename=dsc_result/datamaker.R_8_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_RESOURCE	session=0ed904aca1a004b29e1c161f2846d2d8	nproc=0	start=1485809943.783046	end=1485809944.793647	cpu_peak=0.0	cpu_avg=0.0	mem_peak=46.6Mb	mem_avg=23.3Mb
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=0ed904aca1a004b29e1c161f2846d2d8
+IN_FILE	filename=dsc_result/datamaker.R_4.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10961	md5=cc48eee7427e44aa38c0802555ffd02c
+IN_FILE	filename=dsc_result/datamaker.R_4_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77479	md5=2eb68a0dac0ee323c02eb5e9c31aea43
+OUT_FILE	filename=dsc_result/datamaker.R_4_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=8b9d10e79b3f3b3c6a4803eff0291ef8
+IN_FILE	filename=dsc_result/datamaker.R_9.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9946	md5=e7a5310ccbdb13a73c70a3b3a266ea84
+IN_FILE	filename=dsc_result/datamaker.R_9_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77190	md5=11fd6eb532244ef236ed80f20ebedc21
+OUT_FILE	filename=dsc_result/datamaker.R_9_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=fb6606f0702b6ddb14ab3c5e0cd9f995
+IN_FILE	filename=dsc_result/datamaker.R_10.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15740	md5=6f5a11e9e098bd52f53bf9b0542f131f
+IN_FILE	filename=dsc_result/datamaker.R_10_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77888	md5=f548facf7505b1032d7353d7755cf503
+OUT_FILE	filename=dsc_result/datamaker.R_10_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=35262a01687386027fd8a2dbb217eb79
+IN_FILE	filename=dsc_result/datamaker.R_11.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15718	md5=e101930e579522b33a4df40fe9929063
+IN_FILE	filename=dsc_result/datamaker.R_11_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77754	md5=10d07965f10798f09e27c1191b0bd0a0
+OUT_FILE	filename=dsc_result/datamaker.R_11_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=93391cf6054bca888951bfb7903cb753
+IN_FILE	filename=dsc_result/datamaker.R_13.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11097	md5=6b94435d1c7329497898ade083bc3145
+IN_FILE	filename=dsc_result/datamaker.R_13_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77583	md5=df36d0e6c256c4d1f74a583649b0b130
+OUT_FILE	filename=dsc_result/datamaker.R_13_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=ffc2102723bc8d47e5b2d72703c1953b
+IN_FILE	filename=dsc_result/datamaker.R_12.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15752	md5=f2dabd4e62d35a02cc16992095203b36
+IN_FILE	filename=dsc_result/datamaker.R_12_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=78087	md5=beb21cc59c6051c3345f5103bb5e08ba
+OUT_FILE	filename=dsc_result/datamaker.R_12_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=96452f8184db014e49c155ac7014e62a
+IN_FILE	filename=dsc_result/datamaker.R_15.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11101	md5=ba132488edda25885e6360c25f94d453
+IN_FILE	filename=dsc_result/datamaker.R_15_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77632	md5=e7eb9ccd63204ccd428415e39e8320a7
+OUT_FILE	filename=dsc_result/datamaker.R_15_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=30d7647ca59fbe8abc0562e4c9f41374
+IN_FILE	filename=dsc_result/datamaker.R_14.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11056	md5=6e7ee11ab27be8f7d53db6ff380f848a
+IN_FILE	filename=dsc_result/datamaker.R_14_runash.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77362	md5=020cf024b234a80647c6725ed591d02e
+OUT_FILE	filename=dsc_result/datamaker.R_14_runash.R_1_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=c7671c247fce59772f6148833a86e172
+IN_FILE	filename=dsc_result/datamaker.R_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13290	md5=74e7d1af867f4a0bd0c2d1fe470ac58b
+IN_FILE	filename=dsc_result/datamaker.R_1_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77812	md5=ddb1d6f2da1fb01d039f454ec7a68a11
+OUT_FILE	filename=dsc_result/datamaker.R_1_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=1d900582a95b8d0e179e9d201c1992f7
+IN_FILE	filename=dsc_result/datamaker.R_2.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13269	md5=c7494c6961250f61819c92e8e67ea272
+IN_FILE	filename=dsc_result/datamaker.R_2_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77732	md5=61afca811ae4689791e54d10b43226a6
+OUT_FILE	filename=dsc_result/datamaker.R_2_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=7e22fdeaa610e8f3d3d9bc7d7d672d31
+IN_FILE	filename=dsc_result/datamaker.R_4.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10961	md5=cc48eee7427e44aa38c0802555ffd02c
+IN_FILE	filename=dsc_result/datamaker.R_4_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77534	md5=579a67d1031b76d752fc502e69baf9c6
+OUT_FILE	filename=dsc_result/datamaker.R_4_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=721c85a8a787fcb1923b613392b061f1
+IN_FILE	filename=dsc_result/datamaker.R_3.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=13297	md5=71373e3f3429a51f1e1ba9410794a6cb
+IN_FILE	filename=dsc_result/datamaker.R_3_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=78030	md5=79a58d6501e6ef7bc5098bef1322230c
+OUT_FILE	filename=dsc_result/datamaker.R_3_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=0e58feb7bfa2e36c0d8be524ecc5dc19
+IN_FILE	filename=dsc_result/datamaker.R_5.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10951	md5=c1b0665acf00ce945c9e16c1abda6734
+IN_FILE	filename=dsc_result/datamaker.R_5_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77636	md5=57c7db450c4efa0a006b8577db5e6f7f
+OUT_FILE	filename=dsc_result/datamaker.R_5_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=37effd3ce488e882e30dd1269ad8c342
+IN_FILE	filename=dsc_result/datamaker.R_6.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=10974	md5=5aed1e09382c05222fd6f481aaa891be
+IN_FILE	filename=dsc_result/datamaker.R_6_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77572	md5=57b15631fcfee4c6cb5037d86beea38f
+OUT_FILE	filename=dsc_result/datamaker.R_6_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=51d729f0c738b65c3f90de2eb0e4b396
+IN_FILE	filename=dsc_result/datamaker.R_7.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9934	md5=8131dfe71c0bb7cb23475996ad42b734
+IN_FILE	filename=dsc_result/datamaker.R_7_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77388	md5=42822b0fe40ebff69a5602ae09af1fba
+OUT_FILE	filename=dsc_result/datamaker.R_7_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=b5d76fb67ded9093daaff18ece307d08
+IN_FILE	filename=dsc_result/datamaker.R_8.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9904	md5=11c196ed385c4e638a3ba1c0789d9350
+IN_FILE	filename=dsc_result/datamaker.R_8_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77216	md5=dbbd53087bf86a8f10f7e74290b4b161
+OUT_FILE	filename=dsc_result/datamaker.R_8_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=85820587692b3c3413eab0a19a119a9d
+IN_FILE	filename=dsc_result/datamaker.R_9.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=9946	md5=e7a5310ccbdb13a73c70a3b3a266ea84
+IN_FILE	filename=dsc_result/datamaker.R_9_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77372	md5=22fb2e8f45ce182f0e94fabad7d77846
+OUT_FILE	filename=dsc_result/datamaker.R_9_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=51cc6e97f695425e3d22a117e9d34ed1
+IN_FILE	filename=dsc_result/datamaker.R_12.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15752	md5=f2dabd4e62d35a02cc16992095203b36
+IN_FILE	filename=dsc_result/datamaker.R_12_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=78219	md5=d2279441219dada143ce6f9355871bfb
+OUT_FILE	filename=dsc_result/datamaker.R_12_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=48b99f2fd90756150485a1102fd7d276
+IN_FILE	filename=dsc_result/datamaker.R_11.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15718	md5=e101930e579522b33a4df40fe9929063
+IN_FILE	filename=dsc_result/datamaker.R_11_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77804	md5=6742530fab0f498174b31321b78d742f
+OUT_FILE	filename=dsc_result/datamaker.R_11_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=9bb466a2ac77b52e2252ad59841087b3
+IN_FILE	filename=dsc_result/datamaker.R_10.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=15740	md5=6f5a11e9e098bd52f53bf9b0542f131f
+IN_FILE	filename=dsc_result/datamaker.R_10_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=78155	md5=ebd56e6af76c42a62ad74eed7934519e
+OUT_FILE	filename=dsc_result/datamaker.R_10_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=f4e36ac2f4314db6437e328363dd666b
+IN_FILE	filename=dsc_result/datamaker.R_13.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11097	md5=6b94435d1c7329497898ade083bc3145
+IN_FILE	filename=dsc_result/datamaker.R_13_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77748	md5=ca235d8f0cf6f300a8bc411afaf871d5
+OUT_FILE	filename=dsc_result/datamaker.R_13_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=24b9cbf58d62c85a036374002c90a821
+IN_FILE	filename=dsc_result/datamaker.R_14.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11056	md5=6e7ee11ab27be8f7d53db6ff380f848a
+IN_FILE	filename=dsc_result/datamaker.R_14_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77462	md5=ed01b6313cb319e33ea1e4d30b0ee17f
+OUT_FILE	filename=dsc_result/datamaker.R_14_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+EXE_SIG	step=52eedb2f39049f8438ab8eb2e5c9d76f	session=0d002ec4e652d3a3257dba602bb204c0
+IN_FILE	filename=dsc_result/datamaker.R_15.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=11101	md5=ba132488edda25885e6360c25f94d453
+IN_FILE	filename=dsc_result/datamaker.R_15_runash.R_16.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=77739	md5=f26a83444ff7b8f0d1a39ce4965e9cde
+OUT_FILE	filename=dsc_result/datamaker.R_15_runash.R_16_score_beta_1.rds	session=52eedb2f39049f8438ab8eb2e5c9d76f	size=76	md5=db6a40774312602dc060770d32733b55
+# end time: Mon, 30 Jan 2017 20:59:09 +0000
+# input and dependent files
