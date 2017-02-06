@@ -1,5 +1,6 @@
 library('shiny')
 library('shinydsc')
+library('plotly')
 
 shinyServer(function(input, output, session) {
 
@@ -112,10 +113,179 @@ shinyServer(function(input, output, session) {
     # filter_result = dplyr::filter(current_result, simulate_name == "rnorm.R")
   })
 
-  ####################### the following are for the output the tables and
-# system('dsc settings.dsc --extract result --extract_from pi0_score --extract_to ashr_pi0_1.rds     --tags "An && ash_n" "An && ash_nu" -f')
-  output$text1 <- renderText({
-    getwd()
+  ####################### the following are for the output the tables and this part is just for dsc Omega
+  rv = reactiveValues()
+
+  open_proj_message <- eventReactive(input$open_proj, {
+    crt_path = getwd()
+    data_path = paste0(crt_path,"/data")
+    open_path = paste0(data_path,"/",input$project_name)
+    dir.create(open_path)
+    # restore this path
+    # the further action should be inside of this current path.
+    rv$crt_path = open_path
+    paste("You have open a dsc project",input$project_name,"in",open_path)
+  })
+
+  output$open_proj_note <- renderText({
+    rv$pi_0 = readRDS("data/ashr_pi0_1.rds")
+    # open a project and indicate the directory
+    open_proj_message()
+  })
+
+  #### tag add system
+  inserted <- c()
+
+  observeEvent(input$insertBtn, {
+    btn <- input$insertBtn
+    id <- paste0('tag_', btn)
+    insertUI(
+      selector = '#placeholder',
+      ## wrap element in a div with id for ease of removal
+      ui = tags$div(
+        selectizeInput(inputId  = id,
+                            label    = paste('tag id is:', id),
+                            choices  = rv$dsc_meta$tags,
+                            multiple = TRUE),
+        id = id
+      )
+    )
+    inserted <<- c(id, inserted)
+  })
+
+  observeEvent(input$removeBtn, {
+    removeUI(
+      ## pass in appropriate div id
+      selector = paste0('#', inserted[length(inserted)])
+    )
+    inserted <<- inserted[-length(inserted)]
+  })
+
+  # test the tag system
+  output$test_tag = renderText({
+    paste("you choose for tag_1 with" , length(input$tag_1), "values")
+  })
+
+  # try to get the dsc_working directory
+  output$dsc_work_dir_note = renderText({
+    paste("your working dsc dirctory is :", parseDirPath(volumes, input$dsc_directory))
+  })
+
+  volumes <- c(Root = '~' )
+  shinyDirChoose(input, 'dsc_directory', roots=volumes, session=session, restrictions=system.file(package='base'))
+  output$dsc_directorypath <- renderPrint({
+    dsc_dir = parseDirPath(volumes, input$dsc_directory)
+    meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+    tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    # note here that the file is a data frame so i need the $v1 thing
+    dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
+    rv$dsc_meta = dsc_meta
+    parseDirPath(volumes, input$dsc_directory)
+  })
+
+  # try to read the tag file
+  # read_tag <- eventReactive(input$load_dsc, {
+  #   # to read the .tag file
+  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
+  #   meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+  #   tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+  #   # note here that the file is a data frame so i need the $v1 thing
+  #   dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
+  #   rv$dsc_meta = dsc_meta
+  #   paste("you have read the tag:", c(dsc_meta$tags))
+  # })
+
+  # this is a test message for the tag
+  # output$read_tag_note <- renderText({
+  #   # call the function
+  #   read_tag()
+  # })
+
+  # add the meta
+  output$meta_output <- renderUI({
+    # read_tag()
+    selectizeInput(inputId  = "meta_var",
+                   label    = paste('output type:'),
+                   choices  = rv$dsc_meta$variables,
+                   multiple = TRUE)
+  })
+
+  # try to extract the annotation from the input
+  # tagged_dsc = eventReactive(input$extract_tags,{
+  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
+  #   tag_list = names(input)[sapply(names(input),function(x){grepl("tag_",x) })]
+  #   tag_index = which(sapply(names(input),function(x){grepl("tag_",x) }))
+  #   # to restore the index of tag in the input
+  #   rv$tag_index = tag_index
+  #   ### TODO think about then the index in empty
+  #   tag_list
+  # })
+
+  # this is just for test
+  output$tagged_dsc_note <- renderText({
+    tagged_command()
+  })
+
+  # try to read the annotation from the list
+  tagged_command = eventReactive(input$apply_annotation,{
+    rv$app_dir = getwd()
+    dsc_dir = parseDirPath(volumes, input$dsc_directory)
+    tag_list = names(input)[sapply(names(input),function(x){grepl("tag_",x) })]
+    tag_index = which(sapply(names(input),function(x){grepl("tag_",x) }))
+    # to restore the index of tag in the input
+    rv$tag_index = tag_index
+    ### TODO think about then the index in empty
+    tag_list
+    tag_content = list()
+    for(i in 1:length(tag_list)){
+      tag_content[[i]] = c(input[[tag_list[i]]])
+    }
+    # compose tag part
+    tag_part = ""
+    for (i in 1:length(tag_content)) tag_part = paste0(tag_part, ' ', "'", paste(tag_content[[i]], collapse='&&'), "'")
+    # tag_part
+    # read the meta content
+    meta_part = ""
+    for(i in 1:length(input$meta_var)) meta_part = paste(meta_part,input$meta_var[[i]])
+    # name part
+    meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+    meta_file_name = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    name_part_vec = unlist(strsplit(meta_file_name,'[.]'))
+    name_part = name_part_vec[length(name_part_vec)-2]
+    paste("dsc settings.dsc --extract",meta_part,"--extract_from",name_part,"--tags",tag_part, "-v0","--extract_to",paste0(rv$app_dir,".rds"))
+    #out
+    #dsc settings.dsc --extract pi0_score:result shrink:beta_est shrink:pi0_est --extract_from pi0_score --tags "An && ash_n" "An && ash_nu" -v0 —extract_to /path/to/your/project/pi0_score.rds
+
+    # go the the user folder
+    # setwd(dsc_dir)
+    # try to read
+  })
+
+
+
+
+
+  ######## here are for the visualization
+  output$pi_0_plot_1 = renderPlot({
+    dat = rv$pi_0
+    dat = cbind(c(dat$An_ash_n, dat$An_ash_nu), c(rep('ash_n', length(dat$An_ash_n)),
+                                                  rep('ash_nu', length(dat$An_ash_nu))))
+    colnames(dat) = c('MSE', 'Method')
+    dat = data.frame(dat)
+    dat$MSE <- as.numeric(as.character(dat$MSE))
+    library(ggplot2)
+    p <- ggplot(data.frame(dat), aes(x=Method, y=MSE)) +
+      geom_violin() +
+      geom_dotplot(binaxis='y', stackdir='center', dotsize = .5, binwidth = 1/100)
+    p
+  })
+
+  output$pi_0_plot_2 = renderPlotly({
+    dat = rv$pi_0
+    library(plotly)
+    p <- plot_ly(y = ~as.numeric(dat$An_ash_n), type = "box") %>%
+      add_trace(y = ~as.numeric(dat$An_ash_nu))
+    p
   })
 
 

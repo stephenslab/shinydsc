@@ -1,4 +1,5 @@
 library('shiny')
+library('shinyFiles')
 library('shinydsc')
 library('shinyAce')
 library('dplyr')
@@ -131,10 +132,27 @@ shinyUI(
 
                column(width = 5,
 
-                      sidebarPanel(width = 12,
-                                   h4('Please type the project name:'),
+                      sidebarPanel(width = 9,
+                                   h4('Please type project name for you dsc:'),
                                    textInput("project_name", label = h3("Project Name"),
-                                             value = "Enter text...")
+                                             value = ""),
+                                   actionButton("open_proj", "Open"),
+                                   # fileInput("dsc_folder", label = h3("choose your working dsc directory")),
+                                   shinyDirButton('dsc_directory', 'dsc folder select', 'Please select a folder'),
+                                   verbatimTextOutput('dsc_directorypath'),
+                                   textOutput("dsc_work_dir_note"),
+                                   textOutput("open_proj_note"),
+                                   # actionButton('load_dsc', 'load dsc tag'),
+                                   actionButton('insertBtn', 'add tag'),
+                                   actionButton('removeBtn', 'remove tag'),
+                                   tags$div(id = 'placeholder'),
+                                   textOutput("test_tag"),
+                                   textOutput("read_tag_note"),
+                                   # actionButton('extract_tags', 'Extract tags'),
+                                   uiOutput("meta_output"),
+                                   actionButton('apply_annotation', 'Apply!'),
+                                   textOutput("tagged_dsc_note")
+                                   # submitButton("Go")
                       )
                )
 
@@ -142,7 +160,25 @@ shinyUI(
 
     ),
 
-    tabPanel(title = 'Visualize'
+    tabPanel(title = 'Visualize',
+             fluidPage(
+             sidebarLayout(
+               # column(width = 9,
+
+                      sidebarPanel(width = 6,
+                                   h4('Please select the score you want:'),
+                                   selectInput("score", label = h3("Scores"),
+                                               choices = list("Choice 1" = 1, "Choice 2" = 2,
+                                                              "Choice 3" = 3), selected = 1)
+                                   ),
+                      mainPanel(
+                        tabsetPanel(
+                          tabPanel("Box Plot", plotlyOutput("pi_0_plot_2")),
+                          tabPanel("violin Plot", plotOutput("pi_0_plot_1"))
+                        )
+                      )
+                      # )
+             ))
 
     ),
 
