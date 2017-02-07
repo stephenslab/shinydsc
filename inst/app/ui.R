@@ -3,6 +3,7 @@ library('shinyFiles')
 library('shinydsc')
 library('shinyAce')
 library('dplyr')
+library('plotly')
 library('DT')
 
 shinyUI(
@@ -137,18 +138,16 @@ shinyUI(
                                    textInput("project_name", label = h3("Project Name"),
                                              value = ""),
                                    actionButton("open_proj", "Open"),
-                                   # fileInput("dsc_folder", label = h3("choose your working dsc directory")),
                                    shinyDirButton('dsc_directory', 'dsc folder select', 'Please select a folder'),
-                                   verbatimTextOutput('dsc_directorypath'),
                                    textOutput("dsc_work_dir_note"),
+                                   uiOutput("meta_file"),
+                                   verbatimTextOutput('dsc_directorypath'),
                                    textOutput("open_proj_note"),
-                                   # actionButton('load_dsc', 'load dsc tag'),
                                    actionButton('insertBtn', 'add tag'),
                                    actionButton('removeBtn', 'remove tag'),
                                    tags$div(id = 'placeholder'),
-                                   textOutput("test_tag"),
+                                   # textOutput("test_tag"),
                                    textOutput("read_tag_note"),
-                                   # actionButton('extract_tags', 'Extract tags'),
                                    uiOutput("meta_output"),
                                    actionButton('apply_annotation', 'Apply!'),
                                    textOutput("tagged_dsc_note")
@@ -167,14 +166,19 @@ shinyUI(
 
                       sidebarPanel(width = 6,
                                    h4('Please select the score you want:'),
-                                   selectInput("score", label = h3("Scores"),
-                                               choices = list("Choice 1" = 1, "Choice 2" = 2,
-                                                              "Choice 3" = 3), selected = 1)
+                                   uiOutput("result_folder"),
+                                   uiOutput("meta_file_out")
                                    ),
                       mainPanel(
                         tabsetPanel(
-                          tabPanel("Box Plot", plotlyOutput("pi_0_plot_2")),
-                          tabPanel("violin Plot", plotOutput("pi_0_plot_1"))
+                          tabPanel("Box Plot",
+                                   uiOutput("box_content"),
+                                   plotlyOutput("pi_0_plot_2")
+                                   ),
+                          tabPanel("violin Plot",
+                                   uiOutput("violin_content"),
+                                   plotOutput("pi_0_plot_1")
+                                   )
                         )
                       )
                       # )

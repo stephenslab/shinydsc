@@ -128,7 +128,7 @@ shinyServer(function(input, output, session) {
   })
 
   output$open_proj_note <- renderText({
-    rv$pi_0 = readRDS("data/ashr_pi0_1.rds")
+    #rv$pi_0 = readRDS("data/ashr_pi0_1.rds")
     # open a project and indicate the directory
     open_proj_message()
   })
@@ -161,11 +161,6 @@ shinyServer(function(input, output, session) {
     inserted <<- inserted[-length(inserted)]
   })
 
-  # test the tag system
-  output$test_tag = renderText({
-    paste("you choose for tag_1 with" , length(input$tag_1), "values")
-  })
-
   # try to get the dsc_working directory
   output$dsc_work_dir_note = renderText({
     paste("your working dsc dirctory is :", parseDirPath(volumes, input$dsc_directory))
@@ -176,50 +171,34 @@ shinyServer(function(input, output, session) {
   output$dsc_directorypath <- renderPrint({
     dsc_dir = parseDirPath(volumes, input$dsc_directory)
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-    tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    #tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })][1]
+    tag_file = input$meta_file
     # note here that the file is a data frame so i need the $v1 thing
     dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
     rv$dsc_meta = dsc_meta
     parseDirPath(volumes, input$dsc_directory)
   })
 
-  # try to read the tag file
-  # read_tag <- eventReactive(input$load_dsc, {
-  #   # to read the .tag file
-  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
-  #   meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-  #   tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
-  #   # note here that the file is a data frame so i need the $v1 thing
-  #   dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
-  #   rv$dsc_meta = dsc_meta
-  #   paste("you have read the tag:", c(dsc_meta$tags))
-  # })
-
-  # this is a test message for the tag
-  # output$read_tag_note <- renderText({
-  #   # call the function
-  #   read_tag()
-  # })
+  # this is to choose the different type of meta file
+  output$meta_file <- renderUI({
+    # read_tag()
+    dsc_dir = parseDirPath(volumes, input$dsc_directory)
+    meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+    tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    selectizeInput(inputId  = "meta_file",
+                   label    = paste('meta file:'),
+                   choices  = tag_file,
+                   multiple = TRUE)
+  })
 
   # add the meta
   output$meta_output <- renderUI({
     # read_tag()
     selectizeInput(inputId  = "meta_var",
-                   label    = paste('output type:'),
+                   label    = paste('output configuration:'),
                    choices  = rv$dsc_meta$variables,
                    multiple = TRUE)
   })
-
-  # try to extract the annotation from the input
-  # tagged_dsc = eventReactive(input$extract_tags,{
-  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
-  #   tag_list = names(input)[sapply(names(input),function(x){grepl("tag_",x) })]
-  #   tag_index = which(sapply(names(input),function(x){grepl("tag_",x) }))
-  #   # to restore the index of tag in the input
-  #   rv$tag_index = tag_index
-  #   ### TODO think about then the index in empty
-  #   tag_list
-  # })
 
   # this is just for test
   output$tagged_dsc_note <- renderText({
@@ -249,42 +228,115 @@ shinyServer(function(input, output, session) {
     for(i in 1:length(input$meta_var)) meta_part = paste(meta_part,input$meta_var[[i]])
     # name part
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-    meta_file_name = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    # meta_file_name = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    meta_file_name = input$meta_file
     name_part_vec = unlist(strsplit(meta_file_name,'[.]'))
     name_part = name_part_vec[length(name_part_vec)-2]
-    paste("dsc settings.dsc --extract",meta_part,"--extract_from",name_part,"--tags",tag_part, "-v0","--extract_to",paste0(rv$app_dir,".rds"))
-    #out
-    #dsc settings.dsc --extract pi0_score:result shrink:beta_est shrink:pi0_est --extract_from pi0_score --tags "An && ash_n" "An && ash_nu" -v0 —extract_to /path/to/your/project/pi0_score.rds
+    system_command = paste("dsc settings.dsc --extract",meta_part,"--extract_from",name_part,"--tags",tag_part, "-v0","--extract_to", paste0(rv$crt_path,"/",name_part,".rds"))
+    setwd(dsc_dir)
+    try({
+      system(system_command)
+    })
+    setwd(rv$app_dir)
+    system_command
+  })
 
-    # go the the user folder
-    # setwd(dsc_dir)
-    # try to read
+
+  ######## here are for the visualization
+  output$result_folder <- renderUI({
+    # read_tag()
+    data_dir = paste0(getwd(),"/data")
+    res_file = list.files(data_dir)# [sapply(list.files(data_dir),function(x){grepl("rds",x) })]
+    selectizeInput(inputId  = "meta_folder_out",
+                   label    = paste('View Folder:'),
+                   choices  = res_file,
+                   multiple = TRUE)
+  })
+
+  result_file = eventReactive(input$meta_folder_out,{
+    result_folder = paste0(getwd(),"/data/",input$meta_folder_out)
+    tag_file = list.files(result_folder)[sapply(list.files(result_folder),function(x){grepl("rds",x) })]
+    selectizeInput(inputId  = "meta_file_out",
+                   label    = paste('meta file:'),
+                   choices  = tag_file,
+                   multiple = TRUE)
+  })
+
+
+  output$meta_file_out <- renderUI({
+    result_file()
+  })
+
+
+  read_result = eventReactive(input$meta_file_out,{
+    result_folder = paste0(getwd(),"/data/",input$meta_folder_out,"/",input$meta_file_out)
+    RDS_file = readRDS(result_folder)
+  })
+
+  # this is for the box plot
+  output$box_content <- renderUI({
+    result_list = read_result()
+    res_file = names(result_list)
+    selectizeInput(inputId  = "box_content",
+                   label    = paste('choose the component:'),
+                   choices  = res_file,
+                   multiple = TRUE)
+  })
+
+  output$violin_content <- renderUI({
+    result_list = read_result()
+    res_file = names(result_list)
+    selectizeInput(inputId  = "violin_content",
+                   label    = paste('choose the component:'),
+                   choices  = res_file,
+                   multiple = TRUE)
+  })
+
+  box_data = eventReactive(input$box_content,{
+    result_list = read_result()
+    n_col = length(input$box_content)
+    scores = c()
+    score_type = c()
+    for(i in 1:n_col){
+      scores = c(scores,unlist(result_list[(input$box_content)[i]]))
+      score_type = c(score_type, rep((input$box_content)[i],length( unlist(result_list[(input$box_content)[i]]))))
+    }
+    data_mat = cbind(scores,score_type)
+    colnames(data_mat) = c("values","Type")
+    data_df = data.frame(data_mat)
+    data_df
+  })
+
+  violin_data = eventReactive(input$violin_content,{
+    result_list = read_result()
+    n_col = length(input$violin_content)
+    scores = c()
+    score_type = c()
+    for(i in 1:n_col){
+      scores = c(scores,unlist(result_list[(input$violin_content)[i]]))
+      score_type = c(score_type, rep((input$violin_content)[i],length( unlist(result_list[(input$violin_content)[i]]))))
+    }
+    data_mat = cbind(scores,score_type)
+    colnames(data_mat) = c("values","Type")
+    data_df = data.frame(data_mat)
+    data_df
   })
 
 
 
-
-
-  ######## here are for the visualization
   output$pi_0_plot_1 = renderPlot({
-    dat = rv$pi_0
-    dat = cbind(c(dat$An_ash_n, dat$An_ash_nu), c(rep('ash_n', length(dat$An_ash_n)),
-                                                  rep('ash_nu', length(dat$An_ash_nu))))
-    colnames(dat) = c('MSE', 'Method')
-    dat = data.frame(dat)
-    dat$MSE <- as.numeric(as.character(dat$MSE))
+    dat = violin_data()
     library(ggplot2)
-    p <- ggplot(data.frame(dat), aes(x=Method, y=MSE)) +
+    p <- ggplot(dat, aes(x=Type, y=values)) +
       geom_violin() +
       geom_dotplot(binaxis='y', stackdir='center', dotsize = .5, binwidth = 1/100)
     p
   })
 
   output$pi_0_plot_2 = renderPlotly({
-    dat = rv$pi_0
+    dat = box_data()
     library(plotly)
-    p <- plot_ly(y = ~as.numeric(dat$An_ash_n), type = "box") %>%
-      add_trace(y = ~as.numeric(dat$An_ash_nu))
+    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box")
     p
   })
 
