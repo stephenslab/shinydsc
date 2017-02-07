@@ -124,7 +124,8 @@ shinyServer(function(input, output, session) {
     # restore this path
     # the further action should be inside of this current path.
     rv$crt_path = open_path
-    paste("You have open a dsc project",input$project_name,"in",open_path)
+    # paste("You have open a dsc project",input$project_name,"in",open_path)
+    "please load your dsc"
   })
 
   output$open_proj_note <- renderText({
@@ -161,27 +162,19 @@ shinyServer(function(input, output, session) {
     inserted <<- inserted[-length(inserted)]
   })
 
-  # try to get the dsc_working directory
-  output$dsc_work_dir_note = renderText({
-    paste("your working dsc dirctory is :", parseDirPath(volumes, input$dsc_directory))
-  })
-
   volumes <- c(Root = '~' )
   shinyDirChoose(input, 'dsc_directory', roots=volumes, session=session, restrictions=system.file(package='base'))
-  output$dsc_directorypath <- renderPrint({
-    dsc_dir = parseDirPath(volumes, input$dsc_directory)
-    meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-    #tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })][1]
-    tag_file = input$meta_file
-    # note here that the file is a data frame so i need the $v1 thing
-    dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
-    rv$dsc_meta = dsc_meta
-    parseDirPath(volumes, input$dsc_directory)
-  })
+  # output$dsc_directorypath <- renderText({
+  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
+  #   meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+  #   tag_file = input$meta_file
+  #   dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
+  #   rv$dsc_meta = dsc_meta
+  #   out_note = "gotcha"
+  #   out_note
+  # })
 
-  # this is to choose the different type of meta file
-  output$meta_file <- renderUI({
-    # read_tag()
+  read_meta_file = eventReactive(input$dsc_directory,{
     dsc_dir = parseDirPath(volumes, input$dsc_directory)
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
     tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
@@ -191,18 +184,42 @@ shinyServer(function(input, output, session) {
                    multiple = TRUE)
   })
 
-  # add the meta
-  output$meta_output <- renderUI({
-    # read_tag()
+  # this is to choose the different type of meta file
+  output$meta_file <- renderUI({
+    read_meta_file()
+  })
+
+  read_meta_output = eventReactive(input$meta_file,{
+    dsc_dir = parseDirPath(volumes, input$dsc_directory)
+    meta_folder = paste0(dsc_dir,"/.sos/.dsc")
+    tag_file = input$meta_file
+    dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
+    rv$dsc_meta = dsc_meta
     selectizeInput(inputId  = "meta_var",
-                   label    = paste('output configuration:'),
+                   label    = paste('select quantaties :'),
                    choices  = rv$dsc_meta$variables,
                    multiple = TRUE)
   })
 
+  # add the meta
+  output$meta_output <- renderUI({
+  # selectizeInput(inputId  = "meta_var",
+  #                label    = paste('select quantaties :'),
+  #                choices  = rv$dsc_meta$variables,
+  #                multiple = TRUE)
+  read_meta_output()
+  })
+
+
+
+
+
+
+
   # this is just for test
   output$tagged_dsc_note <- renderText({
     tagged_command()
+    "tagnote"
   })
 
   # try to read the annotation from the list
@@ -304,6 +321,7 @@ shinyServer(function(input, output, session) {
     data_mat = cbind(scores,score_type)
     colnames(data_mat) = c("values","Type")
     data_df = data.frame(data_mat)
+    data_df$values = as.numeric(as.character(data_df$values))
     data_df
   })
 
@@ -319,6 +337,7 @@ shinyServer(function(input, output, session) {
     data_mat = cbind(scores,score_type)
     colnames(data_mat) = c("values","Type")
     data_df = data.frame(data_mat)
+    data_df$values = as.numeric(as.character(data_df$values))
     data_df
   })
 

@@ -134,24 +134,25 @@ shinyUI(
                column(width = 5,
 
                       sidebarPanel(width = 9,
-                                   h4('Please type project name for you dsc:'),
-                                   textInput("project_name", label = h3("Project Name"),
-                                             value = ""),
-                                   actionButton("open_proj", "Open"),
-                                   shinyDirButton('dsc_directory', 'dsc folder select', 'Please select a folder'),
-                                   textOutput("dsc_work_dir_note"),
-                                   uiOutput("meta_file"),
-                                   verbatimTextOutput('dsc_directorypath'),
+                                   fluidRow(column(width = 4,
+                                            textInput("project_name", label = h3("Type a Project Name"),
+                                                      value = ""),
+                                            actionButton("open_proj", "Open")
+                                            )),
                                    textOutput("open_proj_note"),
+                                   shinyDirButton('dsc_directory', 'dsc folder select', 'Please select a folder'),
+                                   uiOutput("meta_file"),
+                                   # textOutput('dsc_directorypath'),
+
                                    actionButton('insertBtn', 'add tag'),
                                    actionButton('removeBtn', 'remove tag'),
                                    tags$div(id = 'placeholder'),
-                                   # textOutput("test_tag"),
+
                                    textOutput("read_tag_note"),
                                    uiOutput("meta_output"),
                                    actionButton('apply_annotation', 'Apply!'),
                                    textOutput("tagged_dsc_note")
-                                   # submitButton("Go")
+
                       )
                )
 
