@@ -125,11 +125,10 @@ shinyServer(function(input, output, session) {
     # the further action should be inside of this current path.
     rv$crt_path = open_path
     # paste("You have open a dsc project",input$project_name,"in",open_path)
-    "please load your dsc"
+    "please complete your annotation step by step."
   })
 
   output$open_proj_note <- renderText({
-    #rv$pi_0 = readRDS("data/ashr_pi0_1.rds")
     # open a project and indicate the directory
     open_proj_message()
   })
@@ -145,7 +144,7 @@ shinyServer(function(input, output, session) {
       ## wrap element in a div with id for ease of removal
       ui = tags$div(
         selectizeInput(inputId  = id,
-                            label    = paste('tag id is:', id),
+                            label    = "select tags",
                             choices  = rv$dsc_meta$tags,
                             multiple = TRUE),
         id = id
@@ -164,22 +163,13 @@ shinyServer(function(input, output, session) {
 
   volumes <- c(Root = '~' )
   shinyDirChoose(input, 'dsc_directory', roots=volumes, session=session, restrictions=system.file(package='base'))
-  # output$dsc_directorypath <- renderText({
-  #   dsc_dir = parseDirPath(volumes, input$dsc_directory)
-  #   meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-  #   tag_file = input$meta_file
-  #   dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
-  #   rv$dsc_meta = dsc_meta
-  #   out_note = "gotcha"
-  #   out_note
-  # })
 
   read_meta_file = eventReactive(input$dsc_directory,{
     dsc_dir = parseDirPath(volumes, input$dsc_directory)
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
     tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
     selectizeInput(inputId  = "meta_file",
-                   label    = paste('meta file:'),
+                   label    = paste('please choose a meta file'),
                    choices  = tag_file,
                    multiple = TRUE)
   })
@@ -203,23 +193,24 @@ shinyServer(function(input, output, session) {
 
   # add the meta
   output$meta_output <- renderUI({
-  # selectizeInput(inputId  = "meta_var",
-  #                label    = paste('select quantaties :'),
-  #                choices  = rv$dsc_meta$variables,
-  #                multiple = TRUE)
   read_meta_output()
   })
 
-
-
-
-
+  # this is to hide the dsc load
+  shinyjs::onclick("step_1",
+                   shinyjs::toggle(id = "step_1_load", anim = TRUE))
+  shinyjs::onclick("step_2",
+                   shinyjs::toggle(id = "step_2_load", anim = TRUE))
+  shinyjs::onclick("step_3",
+                   shinyjs::toggle(id = "step_3_load", anim = TRUE))
+  shinyjs::onclick("step_4",
+                   shinyjs::toggle(id = "step_4_load", anim = TRUE))
 
 
   # this is just for test
   output$tagged_dsc_note <- renderText({
     tagged_command()
-    "tagnote"
+    "Completed"
   })
 
   # try to read the annotation from the list
@@ -249,7 +240,7 @@ shinyServer(function(input, output, session) {
     meta_file_name = input$meta_file
     name_part_vec = unlist(strsplit(meta_file_name,'[.]'))
     name_part = name_part_vec[length(name_part_vec)-2]
-    system_command = paste("dsc settings.dsc --extract",meta_part,"--extract_from",name_part,"--tags",tag_part, "-v0","--extract_to", paste0(rv$crt_path,"/",name_part,".rds"))
+    system_command = paste("dsc -e",meta_part,"--target",name_part,"--tags",tag_part, "-v0","-o", paste0(rv$crt_path,"/",name_part,".rds"))
     setwd(dsc_dir)
     try({
       system(system_command)

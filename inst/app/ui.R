@@ -5,6 +5,7 @@ library('shinyAce')
 library('dplyr')
 library('plotly')
 library('DT')
+library('shinyjs')
 
 shinyUI(
   navbarPage(
@@ -128,30 +129,50 @@ shinyUI(
     ),
 
     tabPanel(title = 'Preview',
+             shinyjs::useShinyjs(),
              textOutput("text1"),
              fluidRow(
 
                column(width = 5,
 
                       sidebarPanel(width = 9,
-                                   fluidRow(column(width = 4,
-                                            textInput("project_name", label = h3("Type a Project Name"),
-                                                      value = ""),
-                                            actionButton("open_proj", "Open")
-                                            )),
-                                   textOutput("open_proj_note"),
-                                   shinyDirButton('dsc_directory', 'dsc folder select', 'Please select a folder'),
-                                   uiOutput("meta_file"),
-                                   # textOutput('dsc_directorypath'),
 
-                                   actionButton('insertBtn', 'add tag'),
-                                   actionButton('removeBtn', 'remove tag'),
-                                   tags$div(id = 'placeholder'),
+                                   a(id = "step_1", "step 1", href = "#"),
+                                   shinyjs::hidden(
+                                     div(id = "step_1_load",
+                                         textInput("project_name", label = h3("Type a Project Name"),
+                                                   value = ""),
+                                         actionButton("open_proj", "Open",class = 'btn-primary'),
+                                         textOutput("open_proj_note")
+                                     )
+                                   ),
 
-                                   textOutput("read_tag_note"),
-                                   uiOutput("meta_output"),
-                                   actionButton('apply_annotation', 'Apply!'),
-                                   textOutput("tagged_dsc_note")
+                                   a(id = "step_2", "step 2", href = "#"),
+                                   shinyjs::hidden(
+                                     div(id = "step_2_load",
+                                         shinyDirButton('dsc_directory', 'select your DSC', 'Please select a folder',class = 'btn-primary'),
+                                         uiOutput("meta_file"),
+                                         uiOutput("meta_output")
+                                     )
+                                   ),
+
+                                   a(id = "step_3", "step 3", href = "#"),
+                                   shinyjs::hidden(
+                                     div(id = "step_3_load",
+                                         actionButton('insertBtn', 'add tag',class = 'btn-primary'),
+                                         actionButton('removeBtn', 'remove tag',class = 'btn-primary'),
+                                         tags$div(id = 'placeholder')
+                                     )
+                                   ),
+
+                                   a(id = "step_4", "step 4", href = "#"),
+                                   shinyjs::hidden(
+                                     div(id = "step_4_load",
+                                         actionButton('apply_annotation', 'Apply!',class = 'btn-primary'),
+                                         textOutput("tagged_dsc_note")
+                                     )
+                                   )
+
 
                       )
                )
