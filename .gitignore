@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Rapp.history
+inst/app/data/
+
