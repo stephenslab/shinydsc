@@ -170,7 +170,7 @@ shinyUI(
                                      div(id = "step_4_load",
                                          actionButton('apply_annotation', 'Apply!',class = 'btn-primary'),
                                          # submitButton('submit'),
-                                         textOutput("text_alias"),
+                                         # textOutput("text_alias"),
                                          textOutput("tagged_dsc_note")
                                      )
                                    )

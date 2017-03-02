@@ -205,10 +205,12 @@ shinyServer(function(input, output, session) {
     dsc_dir = parseDirPath(volumes, input$dsc_directory)
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
     tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
-    selectizeInput(inputId  = "meta_file",
+    tag_file_name = as.vector(sapply(tag_file,function(x){(unlist(strsplit(x,'[.]')))[length(unlist(strsplit(x,'[.]')))-2]}))
+    radioButtons(inputId  = "meta_file",
                    label    = paste('please choose a meta file'),
-                   choices  = tag_file,
-                   multiple = TRUE)
+                   choices  = tag_file_name
+                   # choices  = tag_file,
+                 )
   })
 
   # this is to choose the different type of meta file
@@ -219,9 +221,13 @@ shinyServer(function(input, output, session) {
   read_meta_output = eventReactive(input$meta_file,{
     dsc_dir = parseDirPath(volumes, input$dsc_directory)
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
-    tag_file = input$meta_file
+    tag_file_name = input$meta_file
+    tag_file = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
+    tag_file = tag_file[sapply(tag_file,function(x){grepl(tag_file_name,x) })]
     dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
     rv$dsc_meta = dsc_meta
+    block_names = unique(sapply(dsc_meta$variables,function(x){(unlist(strsplit(x,'[:]')))[1]}))
+    
     selectizeInput(inputId  = "meta_var",
                    label    = paste('select quantaties :'),
                    choices  = rv$dsc_meta$variables,
@@ -247,7 +253,7 @@ shinyServer(function(input, output, session) {
   # this is just for test
   output$tagged_dsc_note <- renderText({
     tagged_command()
-    # "Completed"
+    "Completed"
   })
 
   # try to read the annotation from the list
