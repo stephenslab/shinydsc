@@ -146,9 +146,9 @@ shinyServer(function(input, output, session) {
         fluidRow(
           column(width = 5,
                  selectizeInput(inputId  = paste0("tag_",id),
-                                label    = "select tags",
-                                choices  = rv$dsc_meta$tags,
-                                multiple = TRUE)
+                                 label    = "select tags",
+                                 choices  = rv$dsc_meta$groups,
+                                 multiple = TRUE)
                  ),
           column(width = 5,
                  textInput(paste0("alias_",id), label = "Alias for this tag", 
@@ -172,29 +172,12 @@ shinyServer(function(input, output, session) {
   # test the output the alias
   
   output$text_alias <- renderText({ 
-    tag_list = names(input)[sapply(names(input),function(x){(grepl("tag_tag_",x) ) })]
-    tag_index = which(sapply(names(input),function(x){(grepl("tag_tag_",x) ) }))
-    # to restore the index of tag in the input
-    rv$tag_index = tag_index
-    ### TODO think about when the index in empty
-    tag_list
-    tag_content = list()
-    for(i in 1:length(tag_list)){
-      tag_content[[i]] = c(input[[tag_list[i]]])
-    }
-    alias_list = names(input)[sapply(names(input),function(x){grepl("alias_tag_",x) })]
-    alias_index = which(sapply(names(input),function(x){grepl("alias_tag_",x) }))
-    # to restore the index of tag in the input
-    rv$alias_index = alias_index
-    ### TODO think about when the index in empty
-    alias_content = list()
-    for(i in 1:length(alias_list)){
-      alias_content[[i]] = c(input[[alias_list[i]]])
-    }
-    
-    tag_part = ""
-    for (i in 1:length(tag_content)) tag_part = paste0(tag_part, ' ', "'", paste(alias_content[[i]],paste(tag_content[[i]], collapse='&&'),sep = '='), "'")
-    tag_part
+    meta_var = c()
+    meta_var_list = names(input)[which(names(input) %in% rv$block_names)]
+    for(i in 1:length(meta_var_list)) meta_var = c(meta_var, input[[meta_var_list[i]]])
+    meta_part = ""
+    for(i in 1:length(meta_var)) meta_part = paste(meta_part,meta_var[[i]])
+    meta_part
   })
 
   # this is to read the dsc from the user's computer
@@ -208,7 +191,8 @@ shinyServer(function(input, output, session) {
     tag_file_name = as.vector(sapply(tag_file,function(x){(unlist(strsplit(x,'[.]')))[length(unlist(strsplit(x,'[.]')))-2]}))
     radioButtons(inputId  = "meta_file",
                    label    = paste('please choose a meta file'),
-                   choices  = tag_file_name
+                   choices  = tag_file_name,
+                   selected = NULL
                    # choices  = tag_file,
                  )
   })
@@ -227,16 +211,26 @@ shinyServer(function(input, output, session) {
     dsc_meta = readRDS(paste0(meta_folder,"/",tag_file))
     rv$dsc_meta = dsc_meta
     block_names = unique(sapply(dsc_meta$variables,function(x){(unlist(strsplit(x,'[:]')))[1]}))
-    
-    selectizeInput(inputId  = "meta_var",
-                   label    = paste('select quantaties :'),
-                   choices  = rv$dsc_meta$variables,
-                   multiple = TRUE)
+    rv$block_names = as.vector(block_names)
+    block_list = list()
+    for(i in 1:length(block_names)){
+      block_list[[i]] = checkboxGroupInput(inputId  = block_names[i],
+                   label    = paste(block_names[i]),
+                   choices  = rv$dsc_meta$variables[sapply(rv$dsc_meta$variables,function(x){grepl(block_names[i],x) })],
+                   # choices  = tag_file,
+                   width = 3
+      )
+    }
+    #selectizeInput(inputId  = "meta_var",
+    #               label    = paste('select quantaties :'),
+    #               choices  = rv$dsc_meta$variables,
+    #               multiple = TRUE)
+    block_list
   })
 
   # add the meta
   output$meta_output <- renderUI({
-  read_meta_output()
+     read_meta_output()
   })
 
   # this is to hide the dsc load
@@ -287,18 +281,24 @@ shinyServer(function(input, output, session) {
     for (i in 1:length(tag_content)) tag_part = paste0(tag_part, ' ', "'", paste(alias_content[[i]],paste(tag_content[[i]], collapse='&&'),sep = '='), "'")
     
     # read the meta content
+    meta_var = c()
+    meta_var_list = names(input)[which(names(input) %in% rv$block_names)]
+    for(i in 1:length(meta_var_list)) meta_var = c(meta_var, input[[meta_var_list[i]]])
     meta_part = ""
-    for(i in 1:length(input$meta_var)) meta_part = paste(meta_part,input$meta_var[[i]])
+    for(i in 1:length(meta_var)) meta_part = paste(meta_part,meta_var[[i]])
     # name part
     meta_folder = paste0(dsc_dir,"/.sos/.dsc")
     # meta_file_name = list.files(meta_folder)[sapply(list.files(meta_folder),function(x){grepl("shinymeta",x) })]
     meta_file_name = input$meta_file
-    name_part_vec = unlist(strsplit(meta_file_name,'[.]'))
-    name_part = name_part_vec[length(name_part_vec)-2]
+    #name_part_vec = unlist(strsplit(meta_file_name,'[.]'))
+    #name_part = name_part_vec[length(name_part_vec)-2]
+    name_part = meta_file_name
     system_command = paste("dsc -e",meta_part,"--target",name_part,"--tags",tag_part, "-v 0","-o", paste0(rv$crt_path,"/",name_part,".rds"))
     setwd(dsc_dir)
     try({
       system(system_command)
+      crt_data = readRDS(paste0(rv$crt_path,"/",name_part,".rds"))
+      rv$crt_data = crt_data
     })
     setwd(rv$app_dir)
     system_command
@@ -360,7 +360,7 @@ shinyServer(function(input, output, session) {
   output$box_content <- renderUI({
     result_list = read_result()
     res_file = names(result_list)
-    box_file = res_file[-which(grepl("TIMER",res_file))]
+    box_file = res_file[-which(grepl("DSC_",res_file))]
     selectizeInput(inputId  = "box_content",
                    label    = paste('choose the component:'),
                    choices  = box_file,
@@ -370,7 +370,7 @@ shinyServer(function(input, output, session) {
   output$violin_content <- renderUI({
     result_list = read_result()
     res_file = names(result_list)
-    violin_file = res_file[-which(grepl("TIMER",res_file))]
+    violin_file = res_file[-which(grepl("DSC_",res_file))]
     selectizeInput(inputId  = "violin_content",
                    label    = paste('choose the component:'),
                    choices  = violin_file,
@@ -380,10 +380,11 @@ shinyServer(function(input, output, session) {
   output$timer_content <- renderUI({
     result_list = read_result()
     res_file = names(result_list)
-    timer_file = res_file[which(grepl("TIMER",res_file))]
+    timer_file = result_list[[res_file[which(grepl("TIMER",res_file))]]]
+    timer_names = names(timer_file)
     selectizeInput(inputId  = "timer_content",
                    label    = paste('choose the component:'),
-                   choices  = timer_file,
+                   choices  = timer_names,
                    multiple = TRUE)
   })
 
@@ -421,6 +422,7 @@ shinyServer(function(input, output, session) {
   
   timer_data = eventReactive(input$timer_content,{
     result_list = read_result()
+    result_list = result_list$DSC_TIMER
     n_col = length(input$timer_content)
     scores = c()
     score_type = c()
@@ -449,7 +451,7 @@ shinyServer(function(input, output, session) {
   output$pi_0_plot_2 = renderPlotly({
     dat = box_data()
     library(plotly)
-    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box")
+    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box",color = ~Type)
     p
   })
   
@@ -457,19 +459,106 @@ shinyServer(function(input, output, session) {
   output$pi_0_plot_3 = renderPlotly({
     dat = timer_data()
     library(plotly)
-    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box")
+    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box",color = ~Type)
+    p
+  })
+  ############################   this is a test
+  output$crt_data_size = renderText({
+    res_file = read_scatter_data()
+    paste(dim(res_file),sep = ",")
+  })
+  
+  output$crt_box_content <- renderUI({
+    res_file = rv$crt_data
+    box_file = names(res_file)[-which(grepl("DSC_",names(res_file)))]
+    selectizeInput(inputId  = "crt_box_content",
+                   label    = paste('choose the component:'),
+                   choices  = box_file,
+                   multiple = TRUE)
+  })
+  
+  crt_data = eventReactive(input$crt_box_content,{
+    result_list = rv$crt_data
+    n_col = length(input$crt_box_content)
+    scores = c()
+    score_type = c()
+    for(i in 1:n_col){
+      scores = c(scores,unlist(result_list[(input$crt_box_content)[i]]))
+      score_type = c(score_type, rep((input$crt_box_content)[i],length( unlist(result_list[(input$crt_box_content)[i]]))))
+    }
+    data_mat = cbind(scores,score_type)
+    colnames(data_mat) = c("values","Type")
+    data_df = data.frame(data_mat)
+    data_df$values = as.numeric(as.character(data_df$values))
+    data_df
+  })
+  
+  output$pi_0_plot_4 = renderPlotly({
+    dat = crt_data()
+    library(plotly)
+    p <- plot_ly(dat, y = ~ values, x = ~ Type, type = "box",color = ~Type)
     p
   })
   
-  output$pi_0_plot_4 = renderPlot({
-    dat = timer_data()
-    library(ggplot2)
-    p <- ggplot(dat, aes(x=Type, y=values)) +
-      geom_violin() +
-      geom_dotplot(binaxis='y', stackdir='center', dotsize = .5, binwidth = 1/100)
+  # the following is for the scatter plot
+  # I will just use the data frame from the boxplot
+  output$scatter_content_x <- renderUI({
+    result_list = read_result()
+    res_file = names(result_list)
+    scatter_file = res_file[-which(grepl("DSC_",res_file))]
+    radioButtons(inputId  = "scatter_x",
+                 label    = paste('quantaty on x axis'),
+                 choices  = scatter_file,
+                 selected = NULL
+    )
+  })
+  
+  output$scatter_content_y <- renderUI({
+    result_list = read_result()
+    res_file = names(result_list)
+    scatter_file = res_file[-which(grepl("DSC_",res_file))]
+    radioButtons(inputId  = "scatter_y",
+                 label    = paste('quantaty on y axis'),
+                 choices  = scatter_file,
+                 selected = NULL
+    )
+
+  })
+  
+  output$scatter_index <- renderUI({
+    result_list = read_result()
+    res_file = names(result_list)
+    scatter_file = res_file[-which(grepl("DSC_",res_file))]
+    N_length = length(result_list[[2]])
+    numericInput("scatter_index", "index of replicate",1, min = 1, max = N_length)
+    
+  })
+  
+  read_scatter_data = eventReactive({input$scatter_x 
+    input$scatter_y
+    input$scatter_index},{
+    result_list = read_result()
+    x_content = result_list[input$scatter_x]
+    y_content = result_list[input$scatter_y]
+    if(length((x_content[[1]])[[1]])>2){
+      x_value = as.vector(data.frame(x_content)[input$scatter_index])
+      y_value = as.vector(data.frame(y_content)[input$scatter_index])
+    }else{
+      x_value = unlist(x_content)
+      y_value = unlist(y_content)
+    }
+    data_mat = cbind(x_value,y_value)
+    colnames(data_mat) = c("x","y" )
+    data_df = data.frame(data_mat)
+    data_df
+  })
+  
+  output$pi_0_plot_5 = renderPlotly({
+    dat = read_scatter_data()
+    library(plotly)
+    p <- plot_ly(dat,x = ~x, y = ~y )
     p
   })
-
 
 
 })

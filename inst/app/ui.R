@@ -160,7 +160,7 @@ shinyUI(
                                    shinyjs::hidden(
                                      div(id = "step_3_load",
                                          actionButton('insertBtn', 'add tag',class = 'btn-primary'),
-                                         actionButton('removeBtn', 'remove tag',class = 'btn-primary'),
+                                         # actionButton('removeBtn', 'remove tag',class = 'btn-primary'),
                                          tags$div(id = 'placeholder')
                                      )
                                    ),
@@ -170,7 +170,7 @@ shinyUI(
                                      div(id = "step_4_load",
                                          actionButton('apply_annotation', 'Apply!',class = 'btn-primary'),
                                          # submitButton('submit'),
-                                         # textOutput("text_alias"),
+                                          #textOutput("text_alias"),
                                          textOutput("tagged_dsc_note")
                                      )
                                    )
@@ -178,28 +178,37 @@ shinyUI(
                ),
                column(width = 5,
                       mainPanel(width = 12,
-                        h2("Introducing to customize DSC project"),
-                        p("To custermize the DSC project from your own computer, there are four steps to follow"),
-                        a("step 1: Name you custermized DSC"),
-                        p("There will be a folder creat for you to restore your customized DSC per each use"),
-                        p("please click in the",code('step 1'),"and type your custermized project name"),
-                        hr(),
-                        a("step 2: Load your own DSC from your local machine"),
-                        p("you should have you own annotated DSC result on your local machine, to get your own annotated DSC project,
-                          please refer",a("DSC2 homepage.", 
-                                          href = "https://github.com/stephenslab/dsc2"),"to get idea of how to creat your annotated DSC result."),
-                        p("please click in the",code('step 2')," and select the dsc folder from your local machine."),
-                        hr(),
-                        a("step 3: Select trials and name them"),
-                        p("all the trials are based on your annotation file of your DSC project, you can give a alias for your trials,
-                          please refer",a("DSC2 homepage.", 
-                                          href = "https://github.com/stephenslab/dsc2")," for annotation file."),
-                        p("please click in the",code('step 3')," and click", code('add tag'), "to add the trails and give a alias for each trial"),
-                        hr(),
-                        a("step 4: Apply you selected trials to view the result"),
-                        p("please click in the",code('step 4')," and click", code('Apply'), "to get your result"),
-                        hr(),
-                        p("please go to",code('visualize'),"page to see browse your result if you see", span("completed!", style = "color:blue"))
+                                tabsetPanel(
+                                  tabPanel("Guide",
+                                           h2("Introducing to customize DSC project"),
+                                           p("To custermize the DSC project from your own computer, there are four steps to follow"),
+                                           a("step 1: Name you custermized DSC"),
+                                           p("There will be a folder creat for you to restore your customized DSC per each use"),
+                                           p("please click in the",code('step 1'),"and type your custermized project name"),
+                                           hr(),
+                                           a("step 2: Load your own DSC from your local machine"),
+                                           p("you should have you own annotated DSC result on your local machine, to get your own annotated DSC project,
+                                             please refer",a("DSC2 homepage.", 
+                                                             href = "https://github.com/stephenslab/dsc2"),"to get idea of how to creat your annotated DSC result."),
+                                           p("please click in the",code('step 2')," and select the dsc folder from your local machine."),
+                                           hr(),
+                                           a("step 3: Select trials and name them"),
+                                           p("all the trials are based on your annotation file of your DSC project, you can give a alias for your trials,
+                                             please refer",a("DSC2 homepage.", 
+                                                             href = "https://github.com/stephenslab/dsc2")," for annotation file."),
+                                           p("please click in the",code('step 3')," and click", code('add tag'), "to add the trails and give a alias for each trial"),
+                                           hr(),
+                                           a("step 4: Apply you selected trials to view the result"),
+                                           p("please click in the",code('step 4')," and click", code('Apply'), "to get your result"),
+                                           hr(),
+                                           p("please go to",code('visualize'),"page to see browse your result if you see", span("completed!", style = "color:blue"))
+                                  ),
+                                  tabPanel("Box Plot",
+                                           uiOutput("crt_box_content"),
+                                           plotlyOutput("pi_0_plot_4"),
+                                           p('please check more project in the visualize page')
+                                  )
+                                )
                       )
                )
 
@@ -223,10 +232,25 @@ shinyUI(
                                    uiOutput("box_content"),
                                    plotlyOutput("pi_0_plot_2")
                                    ),
-                          tabPanel("violin Plot",
+                          tabPanel("Violin Plot",
                                    uiOutput("violin_content"),
                                    plotOutput("pi_0_plot_1")
                                    ),
+                          tabPanel("Scatter Plot",
+                                   fluidRow(
+                                     column(width = 3,
+                                            uiOutput("scatter_content_x")
+                                     ),
+                                     column(width = 3,
+                                            uiOutput("scatter_content_y")
+                                          ),
+                                     column(width = 3,
+                                            uiOutput("scatter_index")
+                                     )
+                                   ),
+                                   # textOutput("crt_data_size"),
+                                   plotlyOutput("pi_0_plot_5")
+                          ),
                           tabPanel("Timer Plot",
                                    uiOutput("timer_content"),
                                    plotlyOutput("pi_0_plot_3")
